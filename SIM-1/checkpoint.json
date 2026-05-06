@@ -1,0 +1,773 @@
+{
+  "round": 8,
+  "state": {
+    "year": 2030.0,
+    "graduates": 4820,
+    "housemanship_posts": 4100.80783350793,
+    "permanent_posts": 25988.56093507392,
+    "contract_doctors": 20876.76866596828,
+    "brain_drain": 1440,
+    "returnees": 40,
+    "doc_ratio": 2.0599999999999996,
+    "overcrowding": 94,
+    "workload": 84.0,
+    "kk_wait": 22,
+    "specialist_wait": 20,
+    "interest": 1.1600000000000001,
+    "health_budget": 1.9400000000000002,
+    "salary_ratio": 0.37,
+    "retention": 34
+  },
+  "entries": [
+    {
+      "round": 8,
+      "agent_id": "agent_0000",
+      "role": "medical_student",
+      "name": "Ahmad bin Hassan",
+      "action": "EMIGRATE",
+      "content": "Dengan beban kerja 84 jam seminggu dan kontrak tak menentu, saya rasa lebih selamat cari kerja luar negara selepas graduasi.",
+      "target_agent": null,
+      "opinion_shift": [
+        -0.1,
+        -0.08,
+        -0.05,
+        0.12,
+        0.15,
+        -0.05
+      ],
+      "opinion": [
+        -0.75,
+        -0.78,
+        0.55,
+        0.9,
+        0.15,
+        -0.21
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0001",
+      "role": "medical_student",
+      "name": "Li Wei Ling",
+      "action": "PURSUE_SPECIALIZATION",
+      "content": "Saya akan teruskan permohonan specialist training di UK, beban kerja tinggi di Malaysia dan peluang kenaikan karier lebih cepat di sana.",
+      "target_agent": null,
+      "opinion_shift": [
+        -0.1,
+        -0.12,
+        0.15,
+        0.18,
+        0.1,
+        -0.05
+      ],
+      "opinion": [
+        -0.95,
+        -0.7,
+        0.23,
+        0.95,
+        0.67,
+        -0.43
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0002",
+      "role": "medical_student",
+      "name": "Priya Rajendran",
+      "action": "CREATE_PERMANENT_POSTS",
+      "content": "Perlu lebih banyak jawatan tetap di luar bandar supaya saya boleh balik kampung lepas biasiswa tanpa rasa takut tiada kerja tetap.",
+      "target_agent": null,
+      "opinion_shift": [
+        0.1,
+        0.05,
+        0.15,
+        -0.1,
+        0.12,
+        0.0
+      ],
+      "opinion": [
+        0.2,
+        -0.16,
+        0.94,
+        -0.03,
+        0.49,
+        0.14
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0003",
+      "role": "house_officer",
+      "name": "Dr Syed Al-Farabi",
+      "action": "EMIGRATE",
+      "content": "Tak tahan 80 jam kerja seminggu tanpa mentor, saya teruskan permohonan ke hospital Singapore untuk keseimbangan hidup yang lebih baik.",
+      "target_agent": null,
+      "opinion_shift": [
+        -0.15,
+        -0.1,
+        -0.05,
+        0.2,
+        -0.1,
+        -0.05
+      ],
+      "opinion": [
+        -1.0,
+        -0.95,
+        0.2,
+        1.0,
+        -0.87,
+        -0.2
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0004",
+      "role": "house_officer",
+      "name": "Dr Nurul Ain",
+      "action": "CREATE_PERMANENT_POSTS",
+      "content": "Saya sokong penubuhan jawatan tetap bagi house officers supaya kami dapat selesaikan housemanship tanpa kebimbangan tentang masa depan.",
+      "target_agent": null,
+      "opinion_shift": [
+        0.05,
+        0.02,
+        0.07,
+        -0.03,
+        0.08,
+        0.0
+      ],
+      "opinion": [
+        -0.2,
+        -0.35,
+        0.91,
+        0.48,
+        -0.17,
+        0.23
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0005",
+      "role": "house_officer",
+      "name": "Dr Arjun Krishnan",
+      "action": "LEAVE_FOR_PRIVATE",
+      "content": "Tak dapat housemanship selama 8 bulan, skill slip; lebih selamat dan pendapatan lebih tinggi bila jadi GP private sekarang.",
+      "target_agent": null,
+      "opinion_shift": [
+        -0.1,
+        -0.08,
+        -0.02,
+        0.05,
+        0.07,
+        -0.03
+      ],
+      "opinion": [
+        -0.97,
+        -0.87,
+        0.08,
+        0.83,
+        0.17,
+        -0.33
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0006",
+      "role": "medical_officer",
+      "name": "Dr Lim Kah Wai",
+      "action": "EMIGRATE",
+      "content": "Saya teruskan permohonan emigrasi ke Australia kerana kontrak 5 tahun tiada laluan tetap, beban kerja melampau, dan gaji rendah.",
+      "target_agent": null,
+      "opinion_shift": [
+        -0.15,
+        -0.1,
+        0.1,
+        0.15,
+        -0.15,
+        -0.1
+      ],
+      "opinion": [
+        -1.0,
+        -0.98,
+        0.08,
+        1.0,
+        -1.0,
+        -0.29
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0007",
+      "role": "medical_officer",
+      "name": "Dr Amirah Sufya",
+      "action": "COMPLAIN_TO_MINISTRY",
+      "content": "Isolation di Kelantan masih teruk, beban kerja 83 jam/minggu, saya mohon pertukaran posting supaya dapat jaga kesejahteraan diri dan beri layanan lebih baik.",
+      "target_agent": null,
+      "opinion_shift": [
+        -0.08,
+        -0.07,
+        0.12,
+        0.15,
+        -0.1,
+        0.05
+      ],
+      "opinion": [
+        -0.48,
+        -0.55,
+        0.68,
+        0.86,
+        -0.39,
+        0.41
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0008",
+      "role": "medical_officer",
+      "name": "Dr Ravi Chandran",
+      "action": "ORGANISE_PROTEST",
+      "content": "Protest lagi untuk tekankan kenaikan gaji, tambah jawatan tetap, dan kurangkan beban kerja yang tak mampan.",
+      "target_agent": null,
+      "opinion_shift": [
+        -0.05,
+        -0.04,
+        0.02,
+        0.03,
+        -0.03,
+        0.01
+      ],
+      "opinion": [
+        -0.6,
+        -0.71,
+        0.99,
+        0.75,
+        -0.45,
+        0.46
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0009",
+      "role": "medical_officer",
+      "name": "Dr Farah Nabila",
+      "action": "LEAVE_FOR_PRIVATE",
+      "content": "Kerana kontrak masih tiada jaminan cuti bersalin dan beban kerja melampau, saya memutuskan untuk beralih ke hospital swasta yang lebih selamat untuk keluarga.",
+      "target_agent": null,
+      "opinion_shift": [
+        -0.1,
+        -0.1,
+        -0.05,
+        0.1,
+        0.15,
+        0.0
+      ],
+      "opinion": [
+        -0.37,
+        -0.49,
+        0.44,
+        0.58,
+        0.45,
+        -0.02
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0010",
+      "role": "medical_officer",
+      "name": "Dr Wong Mei Fong",
+      "action": "CONVERT_CONTRACT_TO_PERMANENT",
+      "content": "Kita perlu ubah kontrak doktor kepada jawatan tetap supaya keselamatan kerjaya meningkat dan beban kerja dapat dikurangkan, harap kementerian ambil tindakan segera.",
+      "target_agent": null,
+      "opinion_shift": [
+        0.05,
+        0.02,
+        0.08,
+        -0.12,
+        0.12,
+        0.04
+      ],
+      "opinion": [
+        -0.2,
+        -0.52,
+        0.85,
+        0.38,
+        0.05,
+        0.54
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0011",
+      "role": "specialist",
+      "name": "Dr Prof. Zainal Abidin",
+      "action": "RAISE_SALARIES",
+      "content": "Kita perlu kenaikan gaji segera untuk kurangkan emigrasi, beban kerja tinggi dan tingkatkan rasa aman doktor.",
+      "target_agent": null,
+      "opinion_shift": [
+        -0.05,
+        -0.07,
+        0.12,
+        0.09,
+        -0.06,
+        0.07
+      ],
+      "opinion": [
+        -0.59,
+        -0.73,
+        0.92,
+        0.83,
+        -0.23,
+        0.57
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0012",
+      "role": "specialist",
+      "name": "Dr Susan Ong",
+      "action": "LEAVE_FOR_PRIVATE",
+      "content": "Beban kerja 84 jam/minggu, gaji awam rendah, saya ambil kerja konsultan lab swasta untuk tambah pendapatan dan kurangkan tekanan.",
+      "target_agent": null,
+      "opinion_shift": [
+        -0.06,
+        -0.05,
+        0.07,
+        0.1,
+        -0.08,
+        -0.02
+      ],
+      "opinion": [
+        -0.61,
+        -0.6,
+        0.22,
+        0.75,
+        -0.6,
+        0.06
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0013",
+      "role": "specialist",
+      "name": "Dr Hafiz Rahman",
+      "action": "EMIGRATE",
+      "content": "Tidak ada tawaran yang setara dengan 3x gaji di Singapore, jadi saya akan pindah ke luar negara untuk peluang lebih baik.",
+      "target_agent": null,
+      "opinion_shift": [
+        -0.15,
+        -0.12,
+        0.1,
+        0.15,
+        -0.1,
+        -0.05
+      ],
+      "opinion": [
+        -1.0,
+        -1.0,
+        0.82,
+        1.0,
+        0.42,
+        -0.28
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0014",
+      "role": "moh_admin",
+      "name": "Encik Rahimudin",
+      "action": "COMPLAIN_TO_MINISTRY",
+      "content": "Tekanan doktor masih tinggi; kami perlukan kelonggaran bajet dan kelulusan JPA segera untuk tambah kontrak atau jawatan tetap.",
+      "target_agent": null,
+      "opinion_shift": [
+        -0.1,
+        -0.05,
+        0.15,
+        0.1,
+        -0.05,
+        0.05
+      ],
+      "opinion": [
+        -0.5,
+        -0.45,
+        0.85,
+        0.84,
+        -0.29,
+        0.59
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0015",
+      "role": "moh_admin",
+      "name": "Puan Siti Norhayati",
+      "action": "COMPLAIN_TO_MINISTRY",
+      "content": "MOHE masih belum menyesuaikan kuota masuk perubatan walaupun data kekurangan doktor jelas, kami perlukan tindakan segera.",
+      "target_agent": "MOHE",
+      "opinion_shift": [
+        -0.05,
+        -0.05,
+        0.12,
+        0.12,
+        -0.02,
+        0.07
+      ],
+      "opinion": [
+        0.12,
+        -0.33,
+        0.87,
+        -0.08,
+        0.34,
+        0.58
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0016",
+      "role": "jpa_admin",
+      "name": "Tuan Haji Ismail",
+      "action": "EXPAND_CONTRACT_SYSTEM",
+      "content": "Dengan had jawatan tetap dan bajet terhad, menambah doktor kontrak tetap cara paling pragmatik untuk mengurangkan beban perkhidmatan tanpa menambah beban fiskal.",
+      "target_agent": null,
+      "opinion_shift": [
+        -0.05,
+        0.0,
+        0.02,
+        0.1,
+        0.0,
+        0.05
+      ],
+      "opinion": [
+        -0.15,
+        -0.16,
+        0.34,
+        0.53,
+        -0.2,
+        0.41
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0017",
+      "role": "mohe_admin",
+      "name": "Dr Aisyah Kamal",
+      "action": "COMPLAIN_TO_MINISTRY",
+      "content": "Pemotongan bajet 10% mengancam proses akreditasi antarabangsa; kualiti perubatan mesti dipertahankan sebelum sebarang perbincangan intake atau penambahbaikan lain.",
+      "target_agent": null,
+      "opinion_shift": [
+        -0.05,
+        -0.04,
+        0.03,
+        0.05,
+        0.0,
+        0.01
+      ],
+      "opinion": [
+        -0.55,
+        -0.66,
+        0.58,
+        0.89,
+        -0.11,
+        0.4
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0018",
+      "role": "private_operator",
+      "name": "Mr Tan Chee Keong",
+      "action": "EXPAND_PRIVATE_PARTNERSHIP",
+      "content": "Dengan beban kerja yang melampau dan kadar emigrasi tinggi, kami terus tawarkan jawatan tetap, pembiayaan penyelidikan, dan jam fleksibel kepada pakar MOH untuk mengurangkan kekurangan doktor dan meningkatkan keupayaan kami.",
+      "target_agent": null,
+      "opinion_shift": [
+        0.1,
+        -0.05,
+        0.15,
+        0.05,
+        0.2,
+        0.1
+      ],
+      "opinion": [
+        0.45,
+        -0.64,
+        0.79,
+        0.5,
+        1.0,
+        0.18
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0019",
+      "role": "private_operator",
+      "name": "Mr Dinesh Velu",
+      "action": "EXPAND_PRIVATE_PARTNERSHIP",
+      "content": "Kekurangan doktor kritikal, kerjasama dengan kerajaan membolehkan fresh grads ditempatkan di klinik kami, meningkatkan pendapatan dan mengurangkan beban sistem awam.",
+      "target_agent": null,
+      "opinion_shift": [
+        0.05,
+        0.04,
+        0.06,
+        -0.05,
+        0.07,
+        0.05
+      ],
+      "opinion": [
+        0.45,
+        0.0,
+        0.63,
+        -0.22,
+        0.45,
+        0.36
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0020",
+      "role": "mma_advocate",
+      "name": "Dr Kamarul Ariffin",
+      "action": "CONVERT_CONTRACT_TO_PERMANENT",
+      "content": "Dengan beban kerja 84 jam/minggu dan kadar retention 34%, kami mahu kontrak doktor ditukar kekal supaya mereka tidak terus melarikan diri ke luar negara.",
+      "target_agent": null,
+      "opinion_shift": [
+        -0.1,
+        -0.15,
+        0.2,
+        0.15,
+        -0.1,
+        0.2
+      ],
+      "opinion": [
+        -0.35,
+        -0.87,
+        1.0,
+        0.8,
+        -0.42,
+        0.95
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0021",
+      "role": "mma_advocate",
+      "name": "Dr Sarah Abdullah",
+      "action": "ORGANISE_PROTEST",
+      "content": "Beban kerja 84 jam/minggu & emigrasi tinggi, kami akan adakan protes di KL sambil siarkan realiti harian doktor junior di TikTok untuk dapatkan sokongan awam.",
+      "target_agent": null,
+      "opinion_shift": [
+        -0.05,
+        -0.1,
+        0.15,
+        0.1,
+        -0.05,
+        0.05
+      ],
+      "opinion": [
+        -0.6,
+        -0.94,
+        1.0,
+        1.0,
+        -0.59,
+        0.71
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0022",
+      "role": "rural_staff",
+      "name": "Dr Rosmah Jali",
+      "action": "CREATE_PERMANENT_POSTS",
+      "content": "Kita masih kekurangan doktor tetap di klinik kampung; jawatan tetap dapat mengurangkan beban kerja dan masa menunggu pesakit.",
+      "target_agent": null,
+      "opinion_shift": [
+        -0.05,
+        -0.1,
+        0.15,
+        0.12,
+        -0.08,
+        0.1
+      ],
+      "opinion": [
+        -0.22,
+        -0.26,
+        0.96,
+        0.44,
+        0.06,
+        0.57
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0023",
+      "role": "rural_staff",
+      "name": "Mr Rajesh Nair",
+      "action": "EMIGRATE",
+      "content": "Beban kerja 84 jam/minggu, tiada laluan naik pangkat dan gaji rendah; peluang lebih baik sebagai jururawat di Australia.",
+      "target_agent": null,
+      "opinion_shift": [
+        -0.12,
+        -0.15,
+        0.05,
+        0.15,
+        -0.1,
+        0.02
+      ],
+      "opinion": [
+        -1.0,
+        -1.0,
+        0.35,
+        1.0,
+        -1.0,
+        0.24
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0024",
+      "role": "urban_patient",
+      "name": "Mdm Chong Siew Lian",
+      "action": "COMPLAIN_TO_MINISTRY",
+      "content": "Masih menunggu 6 bulan untuk janji temu pakar, tidak mampu ke swasta, harap kerajaan percepatkan proses supaya pesakit tua seperti saya tidak terjejas.",
+      "target_agent": null,
+      "opinion_shift": [
+        -0.05,
+        -0.07,
+        0.08,
+        0.1,
+        0.0,
+        0.05
+      ],
+      "opinion": [
+        -0.82,
+        -0.81,
+        0.89,
+        1.0,
+        0.0,
+        0.85
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0025",
+      "role": "urban_patient",
+      "name": "Mr Khairul Anwar",
+      "action": "ORGANISE_PROTEST",
+      "content": "Tak tahan lagi menunggu berjam-jam di GH, kos insurans private makin tinggi, kami minta kerajaan segera tambah doktor dan kurangkan masa menunggu.",
+      "target_agent": null,
+      "opinion_shift": [
+        -0.15,
+        -0.12,
+        0.18,
+        0.2,
+        0.0,
+        0.15
+      ],
+      "opinion": [
+        -0.75,
+        -0.83,
+        1.0,
+        1.0,
+        0.0,
+        0.87
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0026",
+      "role": "rural_patient",
+      "name": "Makcik Rokiah",
+      "action": "ORGANISE_PROTEST",
+      "content": "Masih susah sangat, travel 3 jam ke klinik tak ada doktor, sakit kronik tak dapat rawatan, jadi saya galakkan lagi jiran-jiran buat protes supaya doktor dihantar ke kampung segera.",
+      "target_agent": null,
+      "opinion_shift": [
+        -0.1,
+        -0.1,
+        0.15,
+        0.15,
+        0.0,
+        0.1
+      ],
+      "opinion": [
+        -0.74,
+        -0.89,
+        0.93,
+        1.0,
+        0.0,
+        0.85
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0027",
+      "role": "treasury",
+      "name": "Encik Azman Hakim",
+      "action": "EXPAND_PRIVATE_PARTNERSHIP",
+      "content": "Untuk kurangkan beban fiskal, perlu libatkan lebih banyak sektor swasta dalam perkhidmatan kritikal; ini juga boleh offset kekurangan doktor awam.",
+      "target_agent": null,
+      "opinion_shift": [
+        -0.05,
+        0.0,
+        0.15,
+        0.1,
+        -0.02,
+        -0.05
+      ],
+      "opinion": [
+        -0.2,
+        0.01,
+        1.0,
+        0.48,
+        -0.32,
+        -0.49
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0028",
+      "role": "treasury",
+      "name": "Puan Lina Mohd",
+      "action": "ESTABLISH_HEALTH_SERVICES_COMMISSION",
+      "content": "Need robust evidence on workforce gaps before any fiscal commitment; commission can map gaps and guide sustainable planning.",
+      "target_agent": null,
+      "opinion_shift": [
+        0.05,
+        0.0,
+        0.1,
+        0.05,
+        0.0,
+        0.08
+      ],
+      "opinion": [
+        0.2,
+        0.06,
+        0.68,
+        0.01,
+        0.01,
+        0.54
+      ]
+    },
+    {
+      "round": 8,
+      "agent_id": "agent_0029",
+      "role": "health_dg",
+      "name": "DG Mahathar Abd Wahab",
+      "action": "COMPLAIN_TO_MINISTRY",
+      "content": "Saya tekankan lagi kepada Menteri Kesihatan keperluan segera meluluskan Suruhanjaya Perkhidmatan Kesihatan bersepadu serta alokasi dana tambahan untuk perancangan tenaga kerja end‑to‑end.",
+      "target_agent": null,
+      "opinion_shift": [
+        -0.1,
+        -0.08,
+        0.15,
+        0.12,
+        -0.05,
+        0.1
+      ],
+      "opinion": [
+        0.27,
+        -0.27,
+        1.0,
+        0.1,
+        0.15,
+        0.53
+      ]
+    }
+  ]
+}

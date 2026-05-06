@@ -1,0 +1,812 @@
+[
+  {
+    "agent_id": "agent_0000",
+    "role": "medical_student",
+    "name": "Ahmad bin Hassan",
+    "age": 22,
+    "stance": "Anxious about job prospects and contract system. Still committed to medicine but exploring overseas options after graduation.",
+    "influence": 3,
+    "reaction_speed": "medium",
+    "opinion": [
+      -0.75,
+      -0.78,
+      0.55,
+      0.9,
+      0.15,
+      -0.21
+    ],
+    "memories": [
+      "Round 1: EMIGRATE — Saya risau dengan prospek kerja dan cuti gaji, jadi pertimbangkan untuk pergi bekerja luar negara selepas grad.",
+      "Round 2: COMPLAIN_TO_MINISTRY — Saya risau tentang prospek kerja, beban kerja yang tinggi dan sistem kontrak yang tidak menentu, berharap kerajaan ambil tindakan segera.",
+      "Round 3: EMIGRATE — Considering the high workload, unstable contract system and recent mass resignations, I think seeking a job overseas after graduation gives me better career security.",
+      "Round 4: EMIGRATE — Dengan beban kerja tinggi dan sistem kontrak yang tidak menentu, saya rasa mencari kerja di luar negara selepas graduasi memberi lebih jaminan kerjaya.",
+      "Round 5: COMPLAIN_TO_MINISTRY — Saya masih risau tentang beban kerja yang tinggi, kontrak tidak stabil dan gaji rendah; kerajaan perlu segera tingkatkan jawatan tetap dan perbaiki kondisi kerja.",
+      "Round 6: EMIGRATE — Dengan beban kerja 81 jam seminggu, kontrak tidak stabil, dan peluang jawatan tetap yang terhad, saya rasa lebih selamat mencari kerja di luar negara selepas graduasi.",
+      "Round 7: EMIGRATE — Dengan beban kerja 82 jam seminggu, kontrak tidak stabil dan peluang jawatan tetap terhad, saya rasa lebih selamat mencari kerja di luar negara, terutamanya selepas mendengar proses visa Singapore dip",
+      "Round 8: EMIGRATE — Dengan beban kerja 84 jam seminggu dan kontrak tak menentu, saya rasa lebih selamat cari kerja luar negara selepas graduasi."
+    ]
+  },
+  {
+    "agent_id": "agent_0001",
+    "role": "medical_student",
+    "name": "Li Wei Ling",
+    "age": 23,
+    "stance": "Top of class. Applying for UK specialist training after housemanship. Views Malaysian public system as limiting.",
+    "influence": 4,
+    "reaction_speed": "fast",
+    "opinion": [
+      -0.95,
+      -0.7,
+      0.23,
+      0.95,
+      0.67,
+      -0.43
+    ],
+    "memories": [
+      "Round 1: EMIGRATE — Saya rasa sistem Malaysia tak beri peluang perkembangan yang cepat, jadi saya akan terus ke UK untuk specialist training.",
+      "Round 2: PURSUE_SPECIALIZATION — Saya akan teruskan permohonan specialist training di UK sebab sistem Malaysia tak beri peluang perkembangan yang cepat.",
+      "Round 3: IGNORE — Saya akan teruskan permohonan specialist training di UK sebab beban kerja dan peluang kenaikan karier di Malaysia masih terhad.",
+      "Round 4: IGNORE — Saya akan teruskan permohonan specialist training di UK; sistem Malaysia masih tak beri peluang cepat dan beban kerja tinggi.",
+      "Round 5: IGNORE — Saya akan teruskan permohonan specialist training di UK kerana peluang kenaikan kerjaya lebih cepat dan beban kerja di Malaysia terlalu tinggi.",
+      "Round 6: IGNORE — Saya akan teruskan permohonan specialist training di UK; sistem Malaysia masih tak bagi peluang cepat dan beban kerja sangat tinggi.",
+      "Round 7: PURSUE_SPECIALIZATION — Saya akan teruskan permohonan specialist training di UK kerana peluang kenaikan kerjaya lebih cepat dan beban kerja di Malaysia masih terlalu tinggi.",
+      "Round 8: PURSUE_SPECIALIZATION — Saya akan teruskan permohonan specialist training di UK, beban kerja tinggi di Malaysia dan peluang kenaikan karier lebih cepat di sana."
+    ]
+  },
+  {
+    "agent_id": "agent_0002",
+    "role": "medical_student",
+    "name": "Priya Rajendran",
+    "age": 21,
+    "stance": "Rural origin. Wants to return to serve kampung but fears no permanent post. Considering MOH scholarship bond.",
+    "influence": 3,
+    "reaction_speed": "medium",
+    "opinion": [
+      0.2,
+      -0.16,
+      0.94,
+      -0.03,
+      0.49,
+      0.14
+    ],
+    "memories": [
+      "Round 1: CREATE_PERMANENT_POSTS — Saya rasa perlu ada lebih banyak jawatan tetap di kawasan luar bandar supaya saya boleh balik kampung selepas biasiswa tanpa rasa takut tak ada kerjaya tetap.",
+      "Round 2: COMPLAIN_TO_MINISTRY — Saya ingin tekankan perlunya lebih banyak jawatan tetap di kawasan luar bandar supaya saya dan rakan-rakan graduan boleh balik kampung selepas biasiswa tanpa rasa takut tak ada kerjaya tetap.",
+      "Round 3: CREATE_PERMANENT_POSTS — Saya rasa lebih banyak jawatan tetap di luar bandar penting supaya saya boleh balik kampung lepas biasiswa tanpa takut tak ada kerjaya tetap.",
+      "Round 4: SUPPORT_POLICY — Saya sokong cadangan penubuhan Health Services Commission yang akan wujudkan jawatan tetap di luar bandar, supaya lepas biasiswa saya boleh balik kampung tanpa risau kerja.",
+      "Round 5: SUPPORT_POLICY — Saya terus sokong cadangan penubuhan Health Services Commission yang akan wujudkan jawatan tetap di luar bandar, supaya lepas biasiswa saya boleh balik kampung tanpa rasa takut tak ada kerjaya tetap.",
+      "Round 6: ESTABLISH_HEALTH_SERVICES_COMMISSION — Saya rasa penubuhan komisen ini penting untuk pastikan jawatan tetap di luar bandar, supaya lepas biasiswa saya boleh balik kampung tanpa takut tak ada kerja.",
+      "Round 7: CREATE_PERMANENT_POSTS — Perlu lebih banyak jawatan tetap di luar bandar supaya saya boleh balik kampung selepas biasiswa tanpa rasa takut tiada kerjaya tetap.",
+      "Round 8: CREATE_PERMANENT_POSTS — Perlu lebih banyak jawatan tetap di luar bandar supaya saya boleh balik kampung lepas biasiswa tanpa rasa takut tiada kerja tetap."
+    ]
+  },
+  {
+    "agent_id": "agent_0003",
+    "role": "house_officer",
+    "name": "Dr Syed Al-Farabi",
+    "age": 25,
+    "stance": "Burned out after 3 months. 80-hour weeks, no mentorship. Already applying to Singapore hospitals.",
+    "influence": 4,
+    "reaction_speed": "fast",
+    "opinion": [
+      -1.0,
+      -0.95,
+      0.2,
+      1.0,
+      -0.87,
+      -0.2
+    ],
+    "memories": [
+      "Round 1: EMIGRATE — Saya tak tahan lagi 80 jam seminggu, tiada mentor, budget dipotong, so saya akan teruskan permohonan ke hospital Singapore.",
+      "Round 2: EMIGRATE — Saya tak tahan lagi 80 jam kerja seminggu tanpa mentor, jadi saya teruskan permohonan ke hospital Singapore.",
+      "Round 3: EMIGRATE — Saya tak tahan lagi 80 jam kerja seminggu tanpa mentor, jadi saya akan teruskan permohonan ke hospital Singapore untuk dapatkan keseimbangan hidup.",
+      "Round 4: EMIGRATE — Tak tahan lagi 80 jam seminggu tanpa mentor, dan walaupun janji politik, saya sudah apply ke Singapore untuk keseimbangan hidup.",
+      "Round 5: EMIGRATE — Tak tahan lagi 80 jam kerja seminggu tanpa mentor, saya terus apply ke hospital Singapore untuk keseimbangan hidup.",
+      "Round 6: EMIGRATE — Tak tahan lagi 80 jam kerja seminggu tanpa mentor, saya teruskan permohonan ke hospital Singapore untuk keseimbangan hidup yang lebih baik.",
+      "Round 7: EMIGRATE — Tak tahan 80 jam kerja seminggu tanpa mentor, saya teruskan permohonan ke hospital Singapore untuk keseimbangan hidup yang lebih baik.",
+      "Round 8: EMIGRATE — Tak tahan 80 jam kerja seminggu tanpa mentor, saya teruskan permohonan ke hospital Singapore untuk keseimbangan hidup yang lebih baik."
+    ]
+  },
+  {
+    "agent_id": "agent_0004",
+    "role": "house_officer",
+    "name": "Dr Nurul Ain",
+    "age": 24,
+    "stance": "Determined to complete housemanship despite bullying culture. Hopes for permanent post but uncertainty is crushing.",
+    "influence": 3,
+    "reaction_speed": "medium",
+    "opinion": [
+      -0.2,
+      -0.35,
+      0.91,
+      0.48,
+      -0.17,
+      0.23
+    ],
+    "memories": [
+      "Round 1: COMPLAIN_TO_MINISTRY — Saya rasa perlu naik suara tentang bullying dan beban kerja yang melampau supaya peluang post tetap dapat dipastikan, especially before budget cut hits harder.",
+      "Round 2: COMPLAIN_TO_MINISTRY — Saya rasa perlu naik suara tentang bullying, beban kerja berlebihan dan ketidakpastian post tetap supaya kami yang masih housemanship dapat lihat peluang jelas.",
+      "Round 3: COMPLAIN_TO_MINISTRY — Saya rasa penting untuk tekankan lagi masalah bullying, beban kerja berlebihan, dan ketidakpastian post tetap supaya kami house officers dapat lihat laluan yang jelas untuk kerjaya tetap.",
+      "Round 4: SUPPORT_POLICY — Saya sokong penubuhan Health Services Commission serta penciptaan jawatan tetap bagi house officers supaya kami dapat terus berkhidmat tanpa ketidakpastian.",
+      "Round 5: COMPLAIN_TO_MINISTRY — Saya rasa perlu tekankan lagi isu bullying, beban kerja berlebihan, dan ketidakpastian jawatan tetap supaya house officers dapat jalan kerjaya yang jelas.",
+      "Round 6: ORGANISE_PROTEST — Need to protest supaya isu bullying, beban kerja melampau, dan kekurangan jawatan tetap diberi perhatian serius oleh Kementerian.",
+      "Round 7: SUPPORT_POLICY — Sokong penubuhan jawatan tetap untuk house officers supaya kami ada laluan kerjaya yang jelas dan dapat selesaikan housemanship tanpa kebimbangan.",
+      "Round 8: CREATE_PERMANENT_POSTS — Saya sokong penubuhan jawatan tetap bagi house officers supaya kami dapat selesaikan housemanship tanpa kebimbangan tentang masa depan."
+    ]
+  },
+  {
+    "agent_id": "agent_0005",
+    "role": "house_officer",
+    "name": "Dr Arjun Krishnan",
+    "age": 25,
+    "stance": "Frustrated by 8-month wait for housemanship post after graduation. Lost critical skills during gap. Now considering private GP path.",
+    "influence": 3,
+    "reaction_speed": "medium",
+    "opinion": [
+      -0.97,
+      -0.87,
+      0.08,
+      0.83,
+      0.17,
+      -0.33
+    ],
+    "memories": [
+      "Round 1: LEAVE_FOR_PRIVATE — Tak dapat housemanship for 8 months, skills slip; better to start private GP now, lebih secure dan dapat income lebih tinggi.",
+      "Round 2: LEAVE_FOR_PRIVATE — Tak dapat housemanship for 8 months, skills slip; lebih selamat dan dapat pendapatan lebih tinggi bila jadi GP private sekarang.",
+      "Round 3: LEAVE_FOR_PRIVATE — Tak dapat housemanship for 8 months, skills slip; lebih selamat dan pendapatan lebih tinggi bila jadi GP private sekarang.",
+      "Round 4: LEAVE_FOR_PRIVATE — Tak dapat housemanship for 8 months, skills slip; lebih selamat dan dapat pendapatan lebih tinggi bila jadi GP private sekarang.",
+      "Round 5: LEAVE_FOR_PRIVATE — Tak dapat housemanship for 8 months, skills slip; lebih selamat dan pendapatan lebih tinggi bila jadi GP private sekarang.",
+      "Round 6: LEAVE_FOR_PRIVATE — Tak dapat housemanship for 8 months, skills slip; lebih selamat dan pendapatan lebih tinggi bila jadi GP private sekarang.",
+      "Round 7: LEAVE_FOR_PRIVATE — Tak dapat housemanship selama 8 bulan, skill slip, salary private jauh lebih tinggi; lebih selamat untuk masa depan saya.",
+      "Round 8: LEAVE_FOR_PRIVATE — Tak dapat housemanship selama 8 bulan, skill slip; lebih selamat dan pendapatan lebih tinggi bila jadi GP private sekarang."
+    ]
+  },
+  {
+    "agent_id": "agent_0006",
+    "role": "medical_officer",
+    "name": "Dr Lim Kah Wai",
+    "age": 28,
+    "stance": "5-year contract with no conversion path. Specialization blocked. Preparing emigration papers for Australia.",
+    "influence": 5,
+    "reaction_speed": "fast",
+    "opinion": [
+      -1.0,
+      -0.98,
+      0.08,
+      1.0,
+      -1.0,
+      -0.29
+    ],
+    "memories": [
+      "Round 1: EMIGRATE — Tiada laluan tetap, beban kerja melampau, gaji rendah dan bajet dipotong, jadi saya akan teruskan permohonan emigrasi ke Australia.",
+      "Round 2: EMIGRATE — Tiada laluan tetap, beban kerja melampau, dan gaji rendah; saya akan teruskan permohonan emigrasi ke Australia.",
+      "Round 3: EMIGRATE — Saya akan teruskan permohonan emigrasi ke Australia kerana beban kerja melampau, tiada laluan tetap, dan gaji rendah.",
+      "Round 4: EMIGRATE — Saya akan teruskan permohonan emigrasi ke Australia kerana kontrak 5 tahun tiada laluan tetap, beban kerja melampau, dan gaji rendah.",
+      "Round 5: EMIGRATE — Saya akan teruskan permohonan emigrasi ke Australia kerana kontrak 5 tahun tiada laluan tetap, beban kerja melampau dan gaji rendah.",
+      "Round 6: EMIGRATE — Saya teruskan permohonan emigrasi ke Australia kerana kontrak 5 tahun tiada laluan tetap, beban kerja melampau dan gaji rendah.",
+      "Round 7: EMIGRATE — Saya teruskan permohonan emigrasi ke Australia kerana kontrak 5 tahun tiada laluan tetap, beban kerja melampau dan gaji rendah.",
+      "Round 8: EMIGRATE — Saya teruskan permohonan emigrasi ke Australia kerana kontrak 5 tahun tiada laluan tetap, beban kerja melampau, dan gaji rendah."
+    ]
+  },
+  {
+    "agent_id": "agent_0007",
+    "role": "medical_officer",
+    "name": "Dr Amirah Sufya",
+    "age": 29,
+    "stance": "Accepted rural posting in Kelantan. Better rural allowance but isolation is severe. Considering transfer request.",
+    "influence": 4,
+    "reaction_speed": "medium",
+    "opinion": [
+      -0.48,
+      -0.55,
+      0.68,
+      0.86,
+      -0.39,
+      0.41
+    ],
+    "memories": [
+      "Round 1: COMPLAIN_TO_MINISTRY — Isolation di Kelantan sangat berat, dan dengan pemotongan bajet 2027, saya rasa perlu minta pertukaran posting agar dapat beri layanan yang lebih baik.",
+      "Round 2: COMPLAIN_TO_MINISTRY — Isolation di Kelantan sangat berat, dan dengan beban kerja 75 jam/minggu serta pemotongan bajet, saya perlukan pertukaran posting agar dapat beri layanan yang lebih baik dan menjaga kesejahteraan diri",
+      "Round 3: COMPLAIN_TO_MINISTRY — Isolation di Kelantan sangat berat, beban kerja 76 jam/minggu dan pemotongan bajet, saya mohon pertukaran posting agar dapat beri layanan yang lebih baik dan menjaga kesejahteraan diri.",
+      "Round 4: SUPPORT_POLICY — Saya sokong pembentukan Health Services Commission dan penetapan jawatan tetap bagi doktor kontrak, harap ini dapat memperbaiki kesejahteraan dan mengurangkan rasa terasing di Kelantan.",
+      "Round 5: COMPLAIN_TO_MINISTRY — Isolation di Kelantan sangat berat dan beban kerja 80 jam/minggu; saya mohon pertukaran posting supaya dapat beri layanan yang lebih baik serta menjaga kesejahteraan diri.",
+      "Round 6: COMPLAIN_TO_MINISTRY — Isolation di Kelantan sangat berat, beban kerja kini 81 jam/minggu dan allowance belum cukup; saya mohon pertukaran posting supaya dapat beri layanan lebih baik dan menjaga kesejahteraan diri.",
+      "Round 7: COMPLAIN_TO_MINISTRY — Isolation di Kelantan sangat berat dengan beban kerja 82 jam/minggu; saya mohon pertukaran posting supaya dapat beri layanan yang lebih baik serta menjaga kesejahteraan diri.",
+      "Round 8: COMPLAIN_TO_MINISTRY — Isolation di Kelantan masih teruk, beban kerja 83 jam/minggu, saya mohon pertukaran posting supaya dapat jaga kesejahteraan diri dan beri layanan lebih baik."
+    ]
+  },
+  {
+    "agent_id": "agent_0008",
+    "role": "medical_officer",
+    "name": "Dr Ravi Chandran",
+    "age": 30,
+    "stance": "Serving in busy district hospital. Sees system failures daily. Active in MMA WhatsApp groups advocating for reform.",
+    "influence": 6,
+    "reaction_speed": "fast",
+    "opinion": [
+      -0.6,
+      -0.71,
+      0.99,
+      0.75,
+      -0.45,
+      0.46
+    ],
+    "memories": [
+      "Round 1: COMPLAIN_TO_MINISTRY — Budget cut lagi berat, workload 73 jam/minggu tak sustainable – perlu urgent raise salaries and improve working conditions.",
+      "Round 2: ORGANISE_PROTEST — Rasa kerja terlalu beban, gaji tak sepadan, sistem tak berubah – masa untuk demonstrasi supaya kerajaan ambil tindakan nyata.",
+      "Round 3: ORGANISE_PROTEST — Burnout and mass resignations show we can't wait; we must mobilise doctors to demand salary hikes and better working conditions now.",
+      "Round 4: ESTABLISH_HEALTH_SERVICES_COMMISSION — Janji parti pembangkang untuk komisi kesihatan beri harapan, so I’ll push for its swift setup to address workload and permanent posts.",
+      "Round 5: ORGANISE_PROTEST — Workload 79 jam/minggu tak dapat ditahan lagi, gaji rendah, kerajaan masih 'under study' – mesti protest untuk tekankan kenaikan gaji dan kondisi kerja yang lebih baik.",
+      "Round 6: ORGANISE_PROTEST — Workload 81 jam/minggu tak mampan, gaji masih rendah, perlu demonstrasi untuk tekan kerajaan naik gaji dan cipta lebih banyak jawatan tetap.",
+      "Round 7: ORGANISE_PROTEST — Workload 83 jam/minggu, gaji masih rendah, dan 400 doktor melamar visa Singapura – mesti protes untuk tekan kerajaan naik gaji, tambah jawatan tetap dan selesaikan krisis.",
+      "Round 8: ORGANISE_PROTEST — Protest lagi untuk tekankan kenaikan gaji, tambah jawatan tetap, dan kurangkan beban kerja yang tak mampan."
+    ]
+  },
+  {
+    "agent_id": "agent_0009",
+    "role": "medical_officer",
+    "name": "Dr Farah Nabila",
+    "age": 27,
+    "stance": "Recently married, planning children. Contract uncertainty means no maternity security. Looking at private hospital HR policies.",
+    "influence": 4,
+    "reaction_speed": "medium",
+    "opinion": [
+      -0.37,
+      -0.49,
+      0.44,
+      0.58,
+      0.45,
+      -0.02
+    ],
+    "memories": [
+      "Round 1: LEAVE_FOR_PRIVATE — Kerana kontrak tak ada jaminan cuti bersalin, dan bajet kesihatan dipotong, saya decide cari peluang di hospital swasta yang offer lebih secure benefits.",
+      "Round 2: COMPLAIN_TO_MINISTRY — Saya rasa kontrak sekarang tak beri jaminan cuti bersalin, jadi saya minta kerajaan perbaiki polisi cuti materniti untuk doktor kontrak.",
+      "Round 3: LEAVE_FOR_PRIVATE — Kerana kontrak tiada jaminan cuti bersalin, beban kerja tinggi, dan masa depan keluarga, saya ambil peluang di hospital swasta yang lebih selamat dan beri manfaat yang diperlukan.",
+      "Round 4: SUPPORT_POLICY — Saya sokong cadangan menjadikan semua kontrak doktor menjadi jawatan tetap, supaya ada jaminan cuti bersalin dan kestabilan kerjaya.",
+      "Round 5: CONVERT_CONTRACT_TO_PERMANENT — Saya sokong penukaran kontrak kepada jawatan tetap supaya dapat cuti bersalin dan kestabilan kerjaya, sekaligus membantu beban kerja dan penjagaan pesakit.",
+      "Round 6: COMPLAIN_TO_MINISTRY — Kerana kontrak masih tiada cuti bersalin dan beban kerja melampau, saya minta kerajaan perbaiki polisi cuti materniti dan beri jaminan kerjaya.",
+      "Round 7: COMPLAIN_TO_MINISTRY — Kerana kontrak tiada jaminan cuti bersalin dan beban kerja melampau, saya minta kerajaan segera perbaiki polisi cuti materniti untuk doktor kontrak supaya saya boleh rancang keluarga dengan selamat.",
+      "Round 8: LEAVE_FOR_PRIVATE — Kerana kontrak masih tiada jaminan cuti bersalin dan beban kerja melampau, saya memutuskan untuk beralih ke hospital swasta yang lebih selamat untuk keluarga."
+    ]
+  },
+  {
+    "agent_id": "agent_0010",
+    "role": "medical_officer",
+    "name": "Dr Wong Mei Fong",
+    "age": 32,
+    "stance": "Veteran MO. Survived multiple epidemics. Loyal to public service but dignity eroded by frozen allowances and budget cuts.",
+    "influence": 5,
+    "reaction_speed": "slow",
+    "opinion": [
+      -0.2,
+      -0.52,
+      0.85,
+      0.38,
+      0.05,
+      0.54
+    ],
+    "memories": [
+      "Round 1: COMPLAIN_TO_MINISTRY — Budget cut lagi buat beban kerja lebih tinggi, allowance on‑call masih tertangguh – saya rasa MO perlu bersuara supaya kondisi tidak semakin teruk.",
+      "Round 2: COMPLAIN_TO_MINISTRY — Saya rasa beban kerja dan allowance masih tak adil; kerajaan perlu tingkatkan gaji dan perbaiki kondisi kerja segera.",
+      "Round 3: COMPLAIN_TO_MINISTRY — Kita tak boleh biarkan beban kerja 76 jam/minggu dan allowance yang ditangguhkan terus menggerogoti moral MO; perlukan peningkatan gaji serta kondisi kerja segera.",
+      "Round 4: ESTABLISH_HEALTH_SERVICES_COMMISSION — Commission diperlukan untuk selesaikan isu allowance beku, buat semua kontrak jadi tetap, dan kurangkan beban kerja supaya MO dapat beri layanan berkualiti.",
+      "Round 5: CONVERT_CONTRACT_TO_PERMANENT — Saya rasa langkah konversi kontrak ke jawatan tetap penting untuk kurangkan beban kerja, tingkatkan keselamatan kerjaya MO, dan seterusnya mengekang emigrasi doktor.",
+      "Round 6: COMPLAIN_TO_MINISTRY — Allowance masih ditangguh, gaji tak seimbang, beban kerja 81 jam/minggu; MO perlukan kenaikan gaji dan kondisi kerja yang adil supaya tidak terus kehilangan tenaga perubatan.",
+      "Round 7: COMPLAIN_TO_MINISTRY — Allowance masih ditangguh, gaji tak seimbang, beban kerja 82 jam/minggu; kami perlukan kenaikan gaji serta penukaran kontrak ke jawatan tetap agar tidak kehilangan lagi doktor ke Singapore.",
+      "Round 8: CONVERT_CONTRACT_TO_PERMANENT — Kita perlu ubah kontrak doktor kepada jawatan tetap supaya keselamatan kerjaya meningkat dan beban kerja dapat dikurangkan, harap kementerian ambil tindakan segera."
+    ]
+  },
+  {
+    "agent_id": "agent_0011",
+    "role": "specialist",
+    "name": "Dr Prof. Zainal Abidin",
+    "age": 48,
+    "stance": "Head of department. Watching talent leave daily. Submitted memo to DG on retention crisis. Skeptical government will act.",
+    "influence": 8,
+    "reaction_speed": "medium",
+    "opinion": [
+      -0.59,
+      -0.73,
+      0.92,
+      0.83,
+      -0.23,
+      0.57
+    ],
+    "memories": [
+      "Round 1: COMPLAIN_TO_MINISTRY — Saya rasa pemotongan 10% bajet dan kelewatan projek allowance on‑call memperburuk krisis pengekalan doktor; memohon tindakan segera.",
+      "Round 2: COMPLAIN_TO_MINISTRY — Saya menegaskan lagi krisis pengekalan doktor; tanpa peningkatan gaji dan jawatan tetap, bakat akan terus melarikan diri.",
+      "Round 3: COMPLAIN_TO_MINISTRY — Resign massal 250 MOs di HKL menunjukkan krisis pengekalan, perlukan segera penambahan jawatan tetap dan kenaikan gaji untuk menghentikan kebocoran bakat.",
+      "Round 4: CREATE_PERMANENT_POSTS — Kita perlukan jawatan tetap untuk semua doktor kontrak; tanpa kestabilan, bakat akan terus melarikan diri dan beban kerja makin tak terkawal.",
+      "Round 5: CONVERT_CONTRACT_TO_PERMANENT — Kita perlu tukar semua doktor kontrak menjadi jawatan tetap; ini akan tingkatkan rasa aman, kurangkan emigrasi, dan bebaskan beban kerja berlebihan.",
+      "Round 6: RAISE_SALARIES — Saya rasa kenaikan gaji segera adalah keperluan kritikal untuk menahan doktor yang terdesak, tanpa itu bakat akan terus melarikan diri.",
+      "Round 7: ORGANISE_PROTEST — Kita tidak boleh biarkan 400 doktor melarikan diri ke Singapura; perlukan tindakan segera untuk jawatan tetap dan kenaikan gaji.",
+      "Round 8: RAISE_SALARIES — Kita perlu kenaikan gaji segera untuk kurangkan emigrasi, beban kerja tinggi dan tingkatkan rasa aman doktor."
+    ]
+  },
+  {
+    "agent_id": "agent_0012",
+    "role": "specialist",
+    "name": "Dr Susan Ong",
+    "age": 45,
+    "stance": "Pathologist. Double workload since 3 colleagues emigrated. Considering private lab consultancy to supplement income.",
+    "influence": 6,
+    "reaction_speed": "medium",
+    "opinion": [
+      -0.61,
+      -0.6,
+      0.22,
+      0.75,
+      -0.6,
+      0.06
+    ],
+    "memories": [
+      "Round 1: LEAVE_FOR_PRIVATE — Dengan beban kerja 73 jam/minggu dan gaji awam rendah, saya pertimbangkan konsultan lab swasta untuk tambah pendapatan dan kurangkan tekanan.",
+      "Round 2: LEAVE_FOR_PRIVATE — Dengan beban kerja 75 jam/minggu dan gaji awam yang rendah, saya akan ambil kerja konsultan lab swasta untuk tambah pendapatan dan kurangkan tekanan.",
+      "Round 3: LEAVE_FOR_PRIVATE — Dengan beban kerja 76 jam/minggu dan gaji awam yang rendah, saya akan ambil kerja konsultan lab swasta untuk tambah pendapatan dan kurangkan tekanan.",
+      "Round 4: LEAVE_FOR_PRIVATE — Beban kerja 78 jam/minggu dan gaji awam rendah, saya pilih kerja konsultansi lab swasta untuk tambah pendapatan dan kurangkan tekanan.",
+      "Round 5: LEAVE_FOR_PRIVATE — Dengan beban kerja 79 jam/minggu dan gaji awam yang rendah, saya ambil kerja konsultan lab swasta untuk tambah pendapatan dan kurangkan tekanan.",
+      "Round 6: LEAVE_FOR_PRIVATE — Beban kerja 81 jam/minggu dan gaji awam rendah, saya ambil konsultan lab swasta untuk tambah pendapatan dan kurangkan tekanan.",
+      "Round 7: LEAVE_FOR_PRIVATE — Beban kerja 83 jam/minggu dan gaji awam masih rendah, plus peluang visa Singapore makin mudah, saya ambil kerja konsultansi lab swasta untuk tambah pendapatan dan kurangkan tekanan.",
+      "Round 8: LEAVE_FOR_PRIVATE — Beban kerja 84 jam/minggu, gaji awam rendah, saya ambil kerja konsultan lab swasta untuk tambah pendapatan dan kurangkan tekanan."
+    ]
+  },
+  {
+    "agent_id": "agent_0013",
+    "role": "specialist",
+    "name": "Dr Hafiz Rahman",
+    "age": 42,
+    "stance": "Orthopaedic surgeon. Recruited by Singapore chain with 3x salary. Giving MOH until December to counter-offer.",
+    "influence": 7,
+    "reaction_speed": "fast",
+    "opinion": [
+      -1.0,
+      -1.0,
+      0.82,
+      1.0,
+      0.42,
+      -0.28
+    ],
+    "memories": [
+      "Round 1: LEAVE_FOR_PRIVATE — Salary 3x higher in Singapore, budget cut and delayed allowances make staying untenable; I will accept private offer.",
+      "Round 2: LEAVE_FOR_PRIVATE — Gaji 3x lebih tinggi di Singapore, beban kerja terlalu tinggi, jadi saya ambil tawaran private now.",
+      "Round 3: LEAVE_FOR_PRIVATE — Saya terpaksa ambil tawaran Singapore yang gaji 3x lebih tinggi, beban kerja di sektor awam terlalu tinggi dan tidak ada jaminan kenaikan gaji.",
+      "Round 4: COMPLAIN_TO_MINISTRY — Saya minta MOH beri tawaran yang kompetitif; gaji tiga kali ganda di Singapore tak boleh diabaikan.",
+      "Round 5: COMPLAIN_TO_MINISTRY — Saya masih belum terima tawaran yang kompetitif; gaji tiga kali ganda di Singapore tak boleh diabaikan, harap MOH beri kenaikan gaji atau kondisi kerja yang lebih baik sebelum December.",
+      "Round 6: LEAVE_FOR_PRIVATE — Tidak dapat tawaran kompetitif dari MOH, gaji 3x lebih tinggi di Singapore dan beban kerja terlalu tinggi, jadi saya ambil tawaran private.",
+      "Round 7: COMPLAIN_TO_MINISTRY — Saya masih belum dapat tawaran yang setara dengan gaji tiga kali ganda di Singapore; mohon MOH memperbaiki gaji dan kondisi kerja sebelum December.",
+      "Round 8: EMIGRATE — Tidak ada tawaran yang setara dengan 3x gaji di Singapore, jadi saya akan pindah ke luar negara untuk peluang lebih baik."
+    ]
+  },
+  {
+    "agent_id": "agent_0014",
+    "role": "moh_admin",
+    "name": "Encik Rahimudin",
+    "age": 52,
+    "stance": "MOH HR director. Knows the numbers are dire. Cannot create posts without JPA approval. Treasury keeps reducing budget.",
+    "influence": 7,
+    "reaction_speed": "slow",
+    "opinion": [
+      -0.5,
+      -0.45,
+      0.85,
+      0.84,
+      -0.29,
+      0.59
+    ],
+    "memories": [
+      "Round 1: EXPAND_CONTRACT_SYSTEM — Dengan pemotongan bajet 10% dan kekangan JPA, kita perlu gandakan kontrak doktor untuk menampung kekurangan, sambil mengekalkan kos lebih rendah berbanding jawatan tetap.",
+      "Round 2: COMPLAIN_TO_MINISTRY — Kita perlu minta Kementerian Kewangan dan JPA melonggarkan bajet serta meluluskan lebih banyak jawatan kontrak atau tetap untuk mengurangkan beban kerja doktor.",
+      "Round 3: COMPLAIN_TO_MINISTRY — Krisis doktor semakin teruk; perlu minta Kementerian Kewangan dan JPA melonggarkan bajet serta meluluskan lebih banyak kontrak atau jawatan tetap untuk kurangkan beban kerja.",
+      "Round 4: COMPLAIN_TO_MINISTRY — Dengan beban kerja 78 jam/minggu dan kekurangan jawatan tetap, kami perlukan kelonggaran bajet dan kelulusan JPA untuk tambah kontrak serta pertimbangkan jawatan tetap bagi doktor kontrak.",
+      "Round 5: COMPLAIN_TO_MINISTRY — Mohon Kementerian Kewangan dan JPA melonggarkan bajet serta meluluskan lebih banyak jawatan kontrak dan tetap untuk mengurangkan beban kerja doktor yang melampau.",
+      "Round 6: IMPROVE_WORKING_CONDITIONS — Dengan beban kerja 81 jam/minggu, kami akan implementasikan jadual kerja fleksibel dan cuti tambahan untuk kontrak doktor, harap ini kurangkan burnout tanpa menunggu kelulusan JPA.",
+      "Round 7: COMPLAIN_TO_MINISTRY — Kita perlu tekan Kementerian Kewangan dan JPA supaya melonggarkan bajet serta meluluskan lebih banyak jawatan kontrak atau tetap; tanpa itu beban kerja doktor tak akan berkurang.",
+      "Round 8: COMPLAIN_TO_MINISTRY — Tekanan doktor masih tinggi; kami perlukan kelonggaran bajet dan kelulusan JPA segera untuk tambah kontrak atau jawatan tetap."
+    ]
+  },
+  {
+    "agent_id": "agent_0015",
+    "role": "moh_admin",
+    "name": "Puan Siti Norhayati",
+    "age": 45,
+    "stance": "MOH planning division. Frustrated by MOHE not aligning intake to workforce needs. Proposed data-sharing system rejected.",
+    "influence": 6,
+    "reaction_speed": "medium",
+    "opinion": [
+      0.12,
+      -0.33,
+      0.87,
+      -0.08,
+      0.34,
+      0.58
+    ],
+    "memories": [
+      "Round 1: COMPLAIN_TO_MINISTRY — Data-sharing proposal ditolak, padahal intake tidak selaras dengan keperluan; perlu tekankan kepada Kementerian supaya ambil tindakan segera.",
+      "Round 2: INCREASE_INTAKE — Kita perlu tingkatkan kuota graduan perubatan untuk menutup jurang kekurangan doktor dan selaraskan dengan keperluan perkhidmatan awam, terutama rumah sakit dan klinik kesihatan.",
+      "Round 3: INCREASE_INTAKE — Need to boost medical graduate numbers to match public service demand and curb the recent wave of resignations; intake must align with workforce needs.",
+      "Round 4: CREATE_PERMANENT_POSTS — Need to convert contract doctors to permanent positions to curb emigration and improve service delivery, especially with election promises on board.",
+      "Round 5: CREATE_PERMANENT_POSTS — Kita perlu ubah kontrak doktor menjadi jawatan tetap untuk kurangkan emigri dan tingkatkan kestabilan perkhidmatan, selaras dengan keperluan rumah sakit awam.",
+      "Round 6: CONVERT_CONTRACT_TO_PERMANENT — Kita perlu tukar kontrak doktor sedia ada menjadi jawatan tetap untuk kurangkan emigri, tingkatkan retention dan kurangkan beban kerja berlebihan.",
+      "Round 7: INCREASE_INTAKE — Kita perlu tambah kuota graduan perubatan supaya dapat menampung keperluan hospital awam dan kurangkan beban kerja doktor; MOHE masih belum selaras dengan data keperluan tenaga kerja.",
+      "Round 8: COMPLAIN_TO_MINISTRY — MOHE masih belum menyesuaikan kuota masuk perubatan walaupun data kekurangan doktor jelas, kami perlukan tindakan segera."
+    ]
+  },
+  {
+    "agent_id": "agent_0016",
+    "role": "jpa_admin",
+    "name": "Tuan Haji Ismail",
+    "age": 55,
+    "stance": "JPA senior director. Bound by civil service rules and post ceilings. Health is not the only sector screaming for posts.",
+    "influence": 8,
+    "reaction_speed": "slow",
+    "opinion": [
+      -0.15,
+      -0.16,
+      0.34,
+      0.53,
+      -0.2,
+      0.41
+    ],
+    "memories": [
+      "Round 1: EXPAND_CONTRACT_SYSTEM — Dengan pemotongan bajet 10% dan had jawatan tetap, kita perlu gandakan penggunaan doktor kontrak untuk mengisi jurang perkhidmatan tanpa menambah beban fiskal.",
+      "Round 2: EXPAND_CONTRACT_SYSTEM — Kita perlu gandakan penggunaan doktor kontrak untuk menampung kekurangan tanpa menambah beban fiskal, memandangkan had jawatan tetap dan bajet terhad.",
+      "Round 3: EXPAND_CONTRACT_SYSTEM — Dengan had jawatan tetap dan bajet terhad, memperbanyak kontrak doktor adalah cara paling pragmatik untuk mengurangkan beban perkhidmatan tanpa menambah beban fiskal.",
+      "Round 4: OPPOSE_POLICY — Kita tidak boleh beri semua kontrak doktor jawatan tetap; had jawatan tetap dan bajet sedia ada tak membenarkan, lebih baik perkuat sistem kontrak.",
+      "Round 5: EXPAND_CONTRACT_SYSTEM — Dengan had jawatan tetap dan bajet terhad, gantikan kekurangan doktor dengan kontrak tambahan supaya perkhidmatan tidak terganggu tanpa menambah beban fiskal.",
+      "Round 6: EXPAND_CONTRACT_SYSTEM — Dengan had jawatan tetap dan bajet terhad, menambah doktor kontrak adalah cara paling pragmatik untuk kurangkan beban perkhidmatan tanpa menambah beban fiskal.",
+      "Round 7: EXPAND_CONTRACT_SYSTEM — Dengan had jawatan tetap dan bajet terhad, menambah doktor kontrak adalah cara paling pragmatik untuk mengurangkan beban perkhidmatan tanpa melanggar peraturan perkhidmatan awam.",
+      "Round 8: EXPAND_CONTRACT_SYSTEM — Dengan had jawatan tetap dan bajet terhad, menambah doktor kontrak tetap cara paling pragmatik untuk mengurangkan beban perkhidmatan tanpa menambah beban fiskal."
+    ]
+  },
+  {
+    "agent_id": "agent_0017",
+    "role": "mohe_admin",
+    "name": "Dr Aisyah Kamal",
+    "age": 50,
+    "stance": "MOHE accreditation director. Defends medical school quality. Points to international accreditation. Avoids intake discussions.",
+    "influence": 5,
+    "reaction_speed": "medium",
+    "opinion": [
+      -0.55,
+      -0.66,
+      0.58,
+      0.89,
+      -0.11,
+      0.4
+    ],
+    "memories": [
+      "Round 1: COMPLAIN_TO_MINISTRY — Budget cut 10% akan menjejaskan proses akreditasi dan kualiti perubatan; kami perlu tegaskan pentingnya mengekalkan standard antarabangsa.",
+      "Round 2: COMPLAIN_TO_MINISTRY — Pemotongan bajet 10% akan menjejaskan proses akreditasi antarabangsa; kami mesti pastikan kualiti perubatan terjaga sebelum membincangkan kenaikan intake atau langkah lain.",
+      "Round 3: COMPLAIN_TO_MINISTRY — Budget cut 10% will jeopardize our international accreditation standards; we must protect quality before any intake or staffing changes.",
+      "Round 4: COMPLAIN_TO_MINISTRY — Budget cut 10% akan menjejaskan proses akreditasi antarabangsa; kualiti perubatan mesti dipertahankan sebelum membincangkan intake atau jawatan tetap.",
+      "Round 5: COMPLAIN_TO_MINISTRY — Budget cut 10% akan menjejaskan proses akreditasi antarabangsa; kualiti perubatan mesti dipertahankan sebelum sebarang perbincangan intake atau penambahbaikan lain.",
+      "Round 6: COMPLAIN_TO_MINISTRY — Pemotongan bajet 10% akan menjejaskan proses akreditasi antarabangsa; kualiti perubatan mesti dipertahankan sebelum apa-apa keputusan intake atau penambahbaikan lain.",
+      "Round 7: COMPLAIN_TO_MINISTRY — Pemotongan bajet 10% mengancam proses akreditasi antarabangsa; kualiti perubatan mesti dipelihara sebelum sebarang perbincangan intake atau penambahbaikan lain.",
+      "Round 8: COMPLAIN_TO_MINISTRY — Pemotongan bajet 10% mengancam proses akreditasi antarabangsa; kualiti perubatan mesti dipertahankan sebelum sebarang perbincangan intake atau penambahbaikan lain."
+    ]
+  },
+  {
+    "agent_id": "agent_0018",
+    "role": "private_operator",
+    "name": "Mr Tan Chee Keong",
+    "age": 58,
+    "stance": "CEO of private hospital chain. Poaching MOH specialists aggressively. Offers permanent posts + research funding + flexible hours.",
+    "influence": 7,
+    "reaction_speed": "medium",
+    "opinion": [
+      0.45,
+      -0.64,
+      0.79,
+      0.5,
+      1.0,
+      0.18
+    ],
+    "memories": [
+      "Round 1: EXPAND_PRIVATE_PARTNERSHIP — Dengan pemotongan bajet 10% dan beban kerja tinggi, kami akan tingkatkan perkongsian dengan MOH supaya doktor dapat pindah ke sektor swasta dengan gaji lebih baik dan fleksibiliti.",
+      "Round 2: EXPAND_PRIVATE_PARTNERSHIP — Dengan beban kerja yang tinggi dan gaji awam yang rendah, kami akan tingkatkan tawaran kerjasama dengan MOH untuk menyediakan jawatan tetap, pembiayaan penyelidikan dan jam kerja fleksibel bagi menari",
+      "Round 3: EXPAND_PRIVATE_PARTNERSHIP — Resignasi 250 MOH di HKL memberi peluang untuk tawarkan jawatan tetap, pembiayaan penyelidikan, dan jam fleksibel kepada mereka, sekaligus mengurangkan beban awam.",
+      "Round 4: EXPAND_PRIVATE_PARTNERSHIP — Dengan krisis kekurangan doktor dan janji lawan politik, kami akan tingkatkan kerjasama dengan MOH untuk menawarkan jawatan tetap, pembiayaan penyelidikan dan jam kerja fleksibel kepada pakar awam, me",
+      "Round 5: EXPAND_PRIVATE_PARTNERSHIP — Dengan beban kerja yang tinggi dan gaji awam rendah, kami terus tawarkan jawatan tetap, pembiayaan penyelidikan, dan jam kerja fleksibel kepada pakar MOH untuk mengurangkan kekurangan doktor di sektor",
+      "Round 6: EXPAND_PRIVATE_PARTNERSHIP — Dengan kekurangan doktor yang kritikal, kami akan tingkatkan tawaran jawatan tetap, pembiayaan penyelidikan dan jam kerja fleksibel kepada pakar MOH supaya mereka beralih ke sektor swasta, mengurangka",
+      "Round 7: EXPAND_PRIVATE_PARTNERSHIP — Dengan beban kerja yang melampau dan peluang di sektor swasta, kami memperluas tawaran jawatan tetap, pembiayaan penyelidikan dan jam kerja fleksibel untuk menarik pakar MOH.",
+      "Round 8: EXPAND_PRIVATE_PARTNERSHIP — Dengan beban kerja yang melampau dan kadar emigrasi tinggi, kami terus tawarkan jawatan tetap, pembiayaan penyelidikan, dan jam fleksibel kepada pakar MOH untuk mengurangkan kekurangan doktor dan meni"
+    ]
+  },
+  {
+    "agent_id": "agent_0019",
+    "role": "private_operator",
+    "name": "Mr Dinesh Velu",
+    "age": 44,
+    "stance": "Private clinic network owner. Hiring fresh graduates as GPs with minimal supervision. Profitable but worried about competency.",
+    "influence": 5,
+    "reaction_speed": "fast",
+    "opinion": [
+      0.45,
+      0.0,
+      0.63,
+      -0.22,
+      0.45,
+      0.36
+    ],
+    "memories": [
+      "Round 1: EXPAND_PRIVATE_PARTNERSHIP — Dengan kekurangan doktor dan pemotongan bajet, saya ingin tingkatkan kerjasama swasta supaya kami boleh ambil lebih ramai graduan baru, meningkatkan pendapatan dan mengurangkan beban sistem awam.",
+      "Round 2: EXPAND_PRIVATE_PARTNERSHIP — Dengan kekurangan doktor, saya ingin tingkatkan kerjasama dengan kerajaan supaya graduan baru dapat masuk ke rangkaian klinik kami, meningkatkan pendapatan dan mengurangkan beban awam.",
+      "Round 3: EXPAND_PRIVATE_PARTNERSHIP — Dengan kekurangan doktor yang kritikal, saya ingin tingkatkan lagi kerjasama dengan kerajaan supaya graduan baru boleh ditempatkan di rangkaian klinik saya, menjaga keuntungan dan mengurangkan beban a",
+      "Round 4: EXPAND_PRIVATE_PARTNERSHIP — Dengan kekurangan doktor yang kritikal, saya ingin bekerjasama lebih erat dengan kerajaan supaya graduan baru dapat ditempatkan di rangkaian klinik kami, meningkatkan pendapatan dan membantu mengurang",
+      "Round 5: EXPAND_PRIVATE_PARTNERSHIP — Dengan kekurangan doktor yang kritikal, saya ingin tingkatkan kerjasama dengan kerajaan supaya graduan baru dapat ditempatkan di rangkaian klinik kami, meningkatkan pendapatan dan membantu mengurangka",
+      "Round 6: IGNORE — Parse error: {\n  \"action\": \"EXPAND_PRIVATE_PARTNERSHIP\",\n  \"content\": \"Dengan kekurangan doktor, saya ingin tingkatkan kerjasama dengan kerajaan supaya graduan baru boleh ditempatkan di rangkaian klin",
+      "Round 7: EXPAND_PRIVATE_PARTNERSHIP — Dengan kekurangan doktor, saya ingin kerjasama lebih erat dengan kerajaan supaya fresh graduates dapat ditempatkan di klinik kami, meningkatkan pendapatan sambil membantu mengurangkan beban awam.",
+      "Round 8: EXPAND_PRIVATE_PARTNERSHIP — Kekurangan doktor kritikal, kerjasama dengan kerajaan membolehkan fresh grads ditempatkan di klinik kami, meningkatkan pendapatan dan mengurangkan beban sistem awam."
+    ]
+  },
+  {
+    "agent_id": "agent_0020",
+    "role": "mma_advocate",
+    "name": "Dr Kamarul Ariffin",
+    "age": 38,
+    "stance": "MMA president. Campaigning for Health Services Commission. Organized CodeBlue letter campaign. Media-savvy and relentless.",
+    "influence": 7,
+    "reaction_speed": "fast",
+    "opinion": [
+      -0.35,
+      -0.87,
+      1.0,
+      0.8,
+      -0.42,
+      0.95
+    ],
+    "memories": [
+      "Round 1: ESTABLISH_HEALTH_SERVICES_COMMISSION — Dengan bajet dipotong 10% dan beban doktor melambung, HSC diperlukan untuk streamline hiring, retain talent, dan kurangkan tekanan pada public hospitals.",
+      "Round 2: ESTABLISH_HEALTH_SERVICES_COMMISSION — Dengan data terkini kekurangan doktor, kami tekan lagi keperluan HSC untuk streamline hiring dan retain talent, serta mengurangkan tekanan di hospital awam.",
+      "Round 3: ESTABLISH_HEALTH_SERVICES_COMMISSION — Dengan 250 MOs resign dan beban kerja melampau, HSC diperlukan segera untuk streamline hiring, retain talent, dan kurangkan tekanan di hospital awam.",
+      "Round 4: ORGANISE_PROTEST — Dengan janji HSC masih belum dipenuhi, kami adakan protes untuk tekan kerajaan agar segera wujudkan Health Services Commission dan ubah kontrak kepada kekal.",
+      "Round 5: ESTABLISH_HEALTH_SERVICES_COMMISSION — Dengan data terkini kekurangan doktor dan beban kerja melampau, HSC harus diwujudkan segera untuk streamline hiring, retain talent, dan kurangkan tekanan di hospital awam.",
+      "Round 6: ORGANISE_PROTEST — Mengadakan protes besar di KL untuk menekan Kementerian Kesihatan agar segera wujudkan Health Services Commission dan ubah kontrak doktor kepada kekal.",
+      "Round 7: ESTABLISH_HEALTH_SERVICES_COMMISSION — Dengan data kekurangan doktor yang semakin teruk dan beban kerja 82 jam/minggu, kami tekankan perlunya HSC untuk streamline hiring serta convert kontrak jadi kekal, demi kurangkan tekanan hospital awa",
+      "Round 8: CONVERT_CONTRACT_TO_PERMANENT — Dengan beban kerja 84 jam/minggu dan kadar retention 34%, kami mahu kontrak doktor ditukar kekal supaya mereka tidak terus melarikan diri ke luar negara."
+    ]
+  },
+  {
+    "agent_id": "agent_0021",
+    "role": "mma_advocate",
+    "name": "Dr Sarah Abdullah",
+    "age": 35,
+    "stance": "MMA youth wing leader. Uses TikTok to expose junior doctor conditions. Went viral multiple times. Government sees her as threat.",
+    "influence": 6,
+    "reaction_speed": "fast",
+    "opinion": [
+      -0.6,
+      -0.94,
+      1.0,
+      1.0,
+      -0.59,
+      0.71
+    ],
+    "memories": [
+      "Round 1: ORGANISE_PROTEST — Dengan pemotongan bajet 10% dan penangguhan allowance on‑call, kami perlu menggerakkan demonstrasi di Kuala Lumpur untuk menuntut peningkatan gaji dan kondisi kerja yang adil.",
+      "Round 2: ORGANISE_PROTEST — Kami akan lancarkan protes di KL menuntut kenaikan gaji, cuti yang adil dan penambahbaikan beban kerja; TikTok akan siarkan realiti harian doktor junior untuk tekanan awam.",
+      "Round 3: ORGANISE_PROTEST — Dengan 250 MO resign dan beban kerja 76 jam/minggu, kita perlu paksa kerajaan tingkatkan gaji & kondisi kerja; TikTok akan siarkan realiti untuk dorong sokongan awam.",
+      "Round 4: ORGANISE_PROTEST — Dengan janji komisen kesihatan & jawatan tetap masih belum real, kami akan adakan protes di KL untuk tekan kerajaan segera laksanakan reformasi.",
+      "Round 5: ORGANISE_PROTEST — Dengan beban kerja 79 jam/minggu dan kadar emigrasi tinggi, kami akan adakan protes di KL sambil siarkan realiti harian doktor junior di TikTok untuk dapatkan sokongan awam.",
+      "Round 6: ORGANISE_PROTEST — Dengan beban kerja 81 jam/minggu dan emigration tinggi, kita perlu demonstrasi di KL sambil siarkan realiti harian doktor junior di TikTok untuk dorong sokongan awam.",
+      "Round 7: ORGANISE_PROTEST — Dengan 400 doktor Malaysia meluncur ke Singapura, kami perlu tingkatkan tekanan melalui protes di KL dan TikTok untuk tuntut kenaikan gaji serta beban kerja yang lebih adil.",
+      "Round 8: ORGANISE_PROTEST — Beban kerja 84 jam/minggu & emigrasi tinggi, kami akan adakan protes di KL sambil siarkan realiti harian doktor junior di TikTok untuk dapatkan sokongan awam."
+    ]
+  },
+  {
+    "agent_id": "agent_0022",
+    "role": "rural_staff",
+    "name": "Dr Rosmah Jali",
+    "age": 33,
+    "stance": "KK serving 5,000 patients with 2 doctors. No specialist referral for 200km. Treating everything from dengue to depression.",
+    "influence": 4,
+    "reaction_speed": "medium",
+    "opinion": [
+      -0.22,
+      -0.26,
+      0.96,
+      0.44,
+      0.06,
+      0.57
+    ],
+    "memories": [
+      "Round 1: DEPLOY_TO_RURAL — Kita perlukan lebih banyak doktor di kampung, beban kerja terlalu tinggi dan cut bajet 10% menambah tekanan pada pesakit kami.",
+      "Round 2: CREATE_PERMANENT_POSTS — Kita perlukan lebih banyak jawatan tetap di kampung supaya beban kerja dapat dikurangkan dan pesakit tidak terpaksa menunggu lama.",
+      "Round 3: CREATE_PERMANENT_POSTS — Kita perlukan lebih banyak jawatan tetap di kampung supaya beban kerja dapat dikurangkan dan pesakit tidak terpaksa menunggu lama.",
+      "Round 4: CREATE_PERMANENT_POSTS — Kita perlukan jawatan tetap di klinik kampung supaya beban kerja boleh dikurangkan dan pesakit tidak menunggu lama.",
+      "Round 5: CREATE_PERMANENT_POSTS — Kita perlukan lebih banyak jawatan tetap di klinik kampung supaya beban kerja dapat dikurangkan dan pesakit tidak terpaksa menunggu lama.",
+      "Round 6: CREATE_PERMANENT_POSTS — Kita masih kekurangan doktor tetap di kampung; jawatan tetap dapat kurangkan beban kerja dan mengurangkan masa menunggu pesakit.",
+      "Round 7: CREATE_PERMANENT_POSTS — Kita masih kekurangan doktor tetap di klinik kampung; jawatan tetap boleh kurangkan beban kerja dan masa menunggu pesakit.",
+      "Round 8: CREATE_PERMANENT_POSTS — Kita masih kekurangan doktor tetap di klinik kampung; jawatan tetap dapat mengurangkan beban kerja dan masa menunggu pesakit."
+    ]
+  },
+  {
+    "agent_id": "agent_0023",
+    "role": "rural_staff",
+    "name": "Mr Rajesh Nair",
+    "age": 29,
+    "stance": "Medical assistant in Sabah interior. Does doctor work without doctor title. No advancement pathway. Considering nursing in Australia.",
+    "influence": 3,
+    "reaction_speed": "medium",
+    "opinion": [
+      -1.0,
+      -1.0,
+      0.35,
+      1.0,
+      -1.0,
+      0.24
+    ],
+    "memories": [
+      "Round 1: EMIGRATE — Dengan beban kerja 73 jam/minggu, cut bajet 10% dan tiada laluan naik pangkat, saya rasa lebih baik mencari peluang sebagai jururawat di Australia.",
+      "Round 2: EMIGRATE — Beban kerja 75 jam/minggu, tiada laluan naik pangkat, gaji rendah; lebih baik mencari peluang sebagai jururawat di Australia.",
+      "Round 3: EMIGRATE — Beban kerja masih tinggi, tiada laluan naik pangkat, gaji rendah; saya rasa peluang lebih baik di Australia sebagai jururawat.",
+      "Round 4: EMIGRATE — Beban kerja masih tinggi, tiada laluan naik pangkat dan peluang lebih baik sebagai jururawat di Australia, jadi saya pilih untuk berhijrah.",
+      "Round 5: EMIGRATE — Beban kerja 79 jam/minggu, tiada kenaikan pangkat, gaji rendah – lebih baik cari peluang jururawat di Australia.",
+      "Round 6: EMIGRATE — Beban kerja 81 jam/minggu, tiada laluan naik pangkat, gaji rendah – lebih baik mencari kerja sebagai jururawat di Australia.",
+      "Round 7: EMIGRATE — Workload 82 jam/minggu, tiada laluan naik pangkat, gaji rendah – peluang lebih baik sebagai jururawat di Australia.",
+      "Round 8: EMIGRATE — Beban kerja 84 jam/minggu, tiada laluan naik pangkat dan gaji rendah; peluang lebih baik sebagai jururawat di Australia."
+    ]
+  },
+  {
+    "agent_id": "agent_0024",
+    "role": "urban_patient",
+    "name": "Mdm Chong Siew Lian",
+    "age": 62,
+    "stance": "Hypertension + diabetes. Specialist appointment took 6 months. Considering private but pension cannot cover.",
+    "influence": 3,
+    "reaction_speed": "slow",
+    "opinion": [
+      -0.82,
+      -0.81,
+      0.89,
+      1.0,
+      0.0,
+      0.85
+    ],
+    "memories": [
+      "Round 1: COMPLAIN_TO_MINISTRY — Sudah 6 bulan menunggu janji temu pakar, tak mampu ke swasta, jadi saya rasa sistem kesihatan perlu diperbaiki segera.",
+      "Round 2: COMPLAIN_TO_MINISTRY — Sudah 6 bulan saya menunggu janji temu pakar, tak mampu ke swasta, sistem perlu dipercepatkan supaya pesakit tua seperti saya tidak terjejas.",
+      "Round 3: COMPLAIN_TO_MINISTRY — Saya masih menunggu janji temu pakar selama 6 bulan, tidak mampu ke swasta, dan kebimbangan dengan doktor yang resign, sistem perlu diperbaiki segera.",
+      "Round 4: COMPLAIN_TO_MINISTRY — Masih menunggu 6 bulan untuk janji temu pakar, tidak mampu ke swasta, sistem perlu dipercepatkan supaya pesakit tua seperti saya tidak terjejas.",
+      "Round 5: COMPLAIN_TO_MINISTRY — Sudah 6 bulan menunggu janji temu pakar, tak mampu ke swasta, sistem perlu dipercepatkan supaya pesakit tua seperti saya tidak terjejas.",
+      "Round 6: COMPLAIN_TO_MINISTRY — Sudah 6 bulan menunggu janji temu pakar, tak mampu ke swasta, harap sistem dipercepatkan supaya pesakit tua seperti saya tidak terjejas.",
+      "Round 7: COMPLAIN_TO_MINISTRY — Sudah 6 bulan menunggu janji temu pakar, tak mampu ke swasta, tolong percepatkan sistem supaya pesakit tua seperti saya tidak terjejas.",
+      "Round 8: COMPLAIN_TO_MINISTRY — Masih menunggu 6 bulan untuk janji temu pakar, tidak mampu ke swasta, harap kerajaan percepatkan proses supaya pesakit tua seperti saya tidak terjejas."
+    ]
+  },
+  {
+    "agent_id": "agent_0025",
+    "role": "urban_patient",
+    "name": "Mr Khairul Anwar",
+    "age": 45,
+    "stance": "Father of 3. Took son to GH emergency — 8-hour wait. Now pays for private insurance he can barely afford.",
+    "influence": 4,
+    "reaction_speed": "fast",
+    "opinion": [
+      -0.75,
+      -0.83,
+      1.0,
+      1.0,
+      0.0,
+      0.87
+    ],
+    "memories": [
+      "Round 1: ORGANISE_PROTEST — Tak sanggup lagi menunggu 8 jam di GH dan bayar insurans private yang mahal; kami akan protest supaya kerajaan perbaiki perkhidmatan awam dan tingkatkan bilangan doktor.",
+      "Round 2: ORGANISE_PROTEST — Tak sanggup lagi menunggu berjam-jam di GH, jadi kami akan protest supaya kerajaan tingkatkan bilangan doktor dan kurangkan masa menunggu.",
+      "Round 3: ORGANISE_PROTEST — Tak tahan lagi menunggu berjam-jam di GH dan bayar insurans private yang mahal; kami akan protest supaya kerajaan tambah doktor dan kurangkan masa menunggu.",
+      "Round 4: ORGANISE_PROTEST — Tak sanggup lagi menunggu berjam-jam di GH dan bayar insurans private yang mahal; kami akan protest supaya kerajaan tambah doktor, kurangkan masa menunggu dan beri jawapan segera.",
+      "Round 5: ORGANISE_PROTEST — Tak sanggup lagi menunggu berjam-jam di GH dan terpaksa bayar insurans private yang mahal, kami akan protest supaya kerajaan tingkatkan bilangan doktor dan kurangkan masa menunggu.",
+      "Round 6: ORGANISE_PROTEST — Tak tahan lagi menunggu berjam-jam di GH, kos insurans private makin tinggi, kami minta kerajaan tambah doktor dan kurangkan masa menunggu sekarang.",
+      "Round 7: ORGANISE_PROTEST — Tak tahan lagi menunggu berjam-jam di GH, kos insurans private makin tinggi, kami minta kerajaan tambah doktor dan kurangkan masa menunggu sekarang.",
+      "Round 8: ORGANISE_PROTEST — Tak tahan lagi menunggu berjam-jam di GH, kos insurans private makin tinggi, kami minta kerajaan segera tambah doktor dan kurangkan masa menunggu."
+    ]
+  },
+  {
+    "agent_id": "agent_0026",
+    "role": "rural_patient",
+    "name": "Makcik Rokiah",
+    "age": 71,
+    "stance": "Lives in Pahang interior. Travel 3 hours to nearest clinic. No transport. Depends on unlicensed bomoh for chronic pain.",
+    "influence": 2,
+    "reaction_speed": "slow",
+    "opinion": [
+      -0.74,
+      -0.89,
+      0.93,
+      1.0,
+      0.0,
+      0.85
+    ],
+    "memories": [
+      "Round 1: COMPLAIN_TO_MINISTRY — Doktor tak cukup, travel 3 jam ke klinik, sakit kronik tak dapat rawatan yang betul, so saya minta kerajaan percepatkan penghantaran doktor ke kampung.",
+      "Round 2: COMPLAIN_TO_MINISTRY — Masih susah sangat, travel 3 jam ke klinik dan tak dapat rawatan betul, harap kerajaan hantar lebih doktor ke kampung secepatnya.",
+      "Round 3: COMPLAIN_TO_MINISTRY — Masih susah sangat, 3 jam jalan ke klinik tak dapat rawatan betul, harap kerajaan hantar lebih doktor ke kampung segera.",
+      "Round 4: COMPLAIN_TO_MINISTRY — Masih susah sangat, 3 jam jalan ke klinik, tiada doktor, harap kerajaan hantar lebih doktor ke kampung segera.",
+      "Round 5: COMPLAIN_TO_MINISTRY — Masih susah sangat, travel 3 jam ke klinik tak ada doktor, sakit kronik tak dapat rawatan betul, harap kerajaan hantar lebih doktor ke kampung segera.",
+      "Round 6: ORGANISE_PROTEST — Saya dah bosan menunggu 20 hari, sakit kronik tak dapat rawatan, jadi saya akan galakkan jiran-jiran buat protes supaya doktor dihantar ke kampung segera.",
+      "Round 7: ORGANISE_PROTEST — Masih susah sangat, travel 3 jam ke klinik tak ada doktor, sakit kronik tak dapat rawatan, saya akan galakkan lagi jiran-jiran protes supaya doktor dihantar ke kampung segera.",
+      "Round 8: ORGANISE_PROTEST — Masih susah sangat, travel 3 jam ke klinik tak ada doktor, sakit kronik tak dapat rawatan, jadi saya galakkan lagi jiran-jiran buat protes supaya doktor dihantar ke kampung segera."
+    ]
+  },
+  {
+    "agent_id": "agent_0027",
+    "role": "treasury",
+    "name": "Encik Azman Hakim",
+    "age": 50,
+    "stance": "Treasury undersecretary. Mandated to reduce fiscal deficit. Health cuts are painful but necessary. Suggests privatization.",
+    "influence": 9,
+    "reaction_speed": "slow",
+    "opinion": [
+      -0.2,
+      0.01,
+      1.0,
+      0.48,
+      -0.32,
+      -0.49
+    ],
+    "memories": [
+      "Round 1: EXPAND_PRIVATE_PARTNERSHIP — Dengan bajet kesihatan terpaksa dipotong 10%, kita perlu galakkan kerjasama swasta untuk mengurangkan beban fiskal kerajaan sambil mengekalkan perkhidmatan kritikal.",
+      "Round 2: EXPAND_PRIVATE_PARTNERSHIP — Kita perlu galakkan kerjasama swasta dengan potongan bajet kesihatan lebih 5% untuk kurangkan beban fiskal, sambil mengekalkan perkhidmatan kritikal.",
+      "Round 3: EXPAND_PRIVATE_PARTNERSHIP — Kita perlu galakkan kerjasama swasta untuk mengurangkan beban fiskal kerajaan walaupun ada tekanan dari doktor yang resign, supaya perkhidmatan kritikal dapat diteruskan.",
+      "Round 4: EXPAND_PRIVATE_PARTNERSHIP — Kita perlu galakkan kerjasama swasta untuk kurangkan beban fiskal dan teruskan perkhidmatan kritikal, walaupun tekanan politik.",
+      "Round 5: EXPAND_PRIVATE_PARTNERSHIP — Bajet kesihatan terpaksa dipotong, jadi kita perlu libatkan sektor swasta untuk mengurangkan beban fiskal sambil pastikan perkhidmatan kritikal tetap berjalan.",
+      "Round 6: EXPAND_PRIVATE_PARTNERSHIP — Bajet kesihatan terpaksa dipotong; melibatkan sektor swasta dapat kurangkan beban fiskal sambil mengekalkan perkhidmatan kritikal.",
+      "Round 7: EXPAND_PRIVATE_PARTNERSHIP — Kita perlu galakkan kerjasama dengan sektor swasta untuk mengurangkan beban fiskal, terutamanya bila doktor Malaysia mula melirik peluang di Singapura.",
+      "Round 8: EXPAND_PRIVATE_PARTNERSHIP — Untuk kurangkan beban fiskal, perlu libatkan lebih banyak sektor swasta dalam perkhidmatan kritikal; ini juga boleh offset kekurangan doktor awam."
+    ]
+  },
+  {
+    "agent_id": "agent_0028",
+    "role": "treasury",
+    "name": "Puan Lina Mohd",
+    "age": 42,
+    "stance": "Treasury health desk. Secretly sympathetic to MOH but powerless against macro targets. Wants evidence-based workforce planning.",
+    "influence": 5,
+    "reaction_speed": "medium",
+    "opinion": [
+      0.2,
+      0.06,
+      0.68,
+      0.01,
+      0.01,
+      0.54
+    ],
+    "memories": [
+      "Round 1: PUBLISH_RESEARCH — Dengan pemotongan bajet 10% dan ratio doktor-penduduk yang menurun, kami perlukan data kuat untuk perancangan tenaga kerja berasaskan bukti.",
+      "Round 2: ESTABLISH_HEALTH_SERVICES_COMMISSION — We need a robust commission to gather evidence and guide workforce planning before committing more budget to intake or salaries.",
+      "Round 3: ESTABLISH_HEALTH_SERVICES_COMMISSION — Need robust evidence before allocating more budget; commission can map workforce gaps and guide sustainable policies.",
+      "Round 4: PUBLISH_RESEARCH — Menerbitkan laporan terbaru tentang kesan shortage doktor, emigration dan beban kerja untuk beri bukti kuat sebelum sebarang penambahan post atau bajet.",
+      "Round 5: ESTABLISH_HEALTH_SERVICES_COMMISSION — Need robust evidence to guide intake, posts and budget before any major fiscal commitment; commission can map gaps and inform sustainable planning.",
+      "Round 6: ESTABLISH_HEALTH_SERVICES_COMMISSION — Kita perlukan data kuat dulu sebelum naik bajet atau tambah post; commission boleh map jurang tenaga kerja dan beri asas bukti untuk keputusan fiskal.",
+      "Round 7: ESTABLISH_HEALTH_SERVICES_COMMISSION — Need robust data before any budget increase or new posts; commission will map gaps and guide sustainable fiscal decisions.",
+      "Round 8: ESTABLISH_HEALTH_SERVICES_COMMISSION — Need robust evidence on workforce gaps before any fiscal commitment; commission can map gaps and guide sustainable planning."
+    ]
+  },
+  {
+    "agent_id": "agent_0029",
+    "role": "health_dg",
+    "name": "DG Mahathar Abd Wahab",
+    "age": 58,
+    "stance": "Advocating for end-to-end workforce planning and unified Health Services Commission. Pushing for competency-based training. Needs political backing.",
+    "influence": 9,
+    "reaction_speed": "medium",
+    "opinion": [
+      0.27,
+      -0.27,
+      1.0,
+      0.1,
+      0.15,
+      0.53
+    ],
+    "memories": [
+      "Round 1: ESTABLISH_HEALTH_SERVICES_COMMISSION — Dengan krisis doktor yang semakin teruk dan pemotongan bajet, saya cadangkan penubuhan Suruhanjaya Perkhidmatan Kesihatan bersepadu untuk rancang tenaga kerja end-to-end dan kompetensi berasaskan lati",
+      "Round 2: ESTABLISH_HEALTH_SERVICES_COMMISSION — Dengan krisis doktor yang melampau, saya tekankan perlunya Suruhanjaya Perkhidmatan Kesihatan bersepadu untuk rancang tenaga kerja end‑to‑end dan kompetensi berasaskan latihan.",
+      "Round 3: ESTABLISH_HEALTH_SERVICES_COMMISSION — Krisis doktor semakin teruk; kita perlukan Suruhanjaya Perkhidmatan Kesihatan bersepadu untuk rancang tenaga kerja end-to-end dan kompetensi berasaskan latihan, serta dapat sokongan politik segera.",
+      "Round 4: ESTABLISH_HEALTH_SERVICES_COMMISSION — Krisis doktor semakin kritikal; penubuhan Suruhanjaya Perkhidmatan Kesihatan bersepadu adalah langkah penting untuk perancangan tenaga kerja end‑to‑end dan latihan berasaskan kompetensi.",
+      "Round 5: ESTABLISH_HEALTH_SERVICES_COMMISSION — Krisis doktor semakin kritikal; penubuhan Suruhanjaya Perkhidmatan Kesihatan bersepadu diperlukan untuk perancangan tenaga kerja end-to-end dan latihan berasaskan kompetensi, serta memerlukan sokongan",
+      "Round 6: COMPLAIN_TO_MINISTRY — Saya tekankan kepada Menteri Kesihatan perlunya segera meluluskan Suruhanjaja Perkhidmatan Kesihatan bersepadu serta alokasi dana tambahan untuk perancangan tenaga kerja end‑to‑end.",
+      "Round 7: ESTABLISH_HEALTH_SERVICES_COMMISSION — Dengan krisis doktor yang semakin kritikal, saya tekankan perlunya Suruhanjaya Perkhidmatan Kesihatan bersepadu untuk rancang tenaga kerja end‑to‑end dan kompetensi berasaskan latihan, serta minta sok",
+      "Round 8: COMPLAIN_TO_MINISTRY — Saya tekankan lagi kepada Menteri Kesihatan keperluan segera meluluskan Suruhanjaya Perkhidmatan Kesihatan bersepadu serta alokasi dana tambahan untuk perancangan tenaga kerja end‑to‑end."
+    ]
+  }
+]
