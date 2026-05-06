@@ -1,0 +1,84 @@
+# ─────────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ─────────────────────────────────────────────
+# Virtual environments
+# ─────────────────────────────────────────────
+venv/
+ENV/
+env/
+.venv/
+
+# ─────────────────────────────────────────────
+# Secrets & credentials
+# ─────────────────────────────────────────────
+*.env
+.env*
+!.env.example
+*.key
+*.pem
+*.p12
+*.crt
+*.der
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+secrets/
+secrets.*
+*.secret
+credentials.json
+token.json
+auth.json
+config.yaml
+config.yml
+
+# ─────────────────────────────────────────────
+# Ollama / LLM gateway configs (local-only)
+# ─────────────────────────────────────────────
+ollama/
+*.gguf
+models/
+
+# ─────────────────────────────────────────────
+# IDE / OS
+# ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ─────────────────────────────────────────────
+# Simulation outputs (large generated files)
+# ─────────────────────────────────────────────
+checkpoint.json
+*.checkpoint
+*.bak
+
+# NOTE: sim*_log.jsonl, sim*_state.json, sim*_personas.json, sim*_report.md,
+# and interview*.md ARE intentionally tracked for research reproducibility.
+# The engine and interview scripts are source code and must be tracked.
