@@ -305,3 +305,167 @@ python3 sim1_interview.py --list
 ## License
 
 MIT — research and policy use encouraged. Attribution requested.
+
+---
+
+## Final Synthesis Report: Malaysia's Healthcare Workforce Policy Options
+
+### Executive Summary
+
+This project simulates six distinct policy trajectories for resolving Malaysia's 30-year cyclical doctor shortage crisis (2026–2030). All six scenarios share the same initial conditions, the same 30 stakeholder agents, and the same LLM-driven decision engine, differing only in policy assumptions. The results reveal a clear hierarchy of viable vs. non-viable strategies.
+
+---
+
+### Comparative Trajectory (2030 Outcomes)
+
+| Metric | Baseline | Intake Surge | Balanced | Environ. | Comprehensive | Private Integration |
+|--------|----------|--------------|----------|----------|----------------|---------------------|
+| **Graduates** | 4,820 | 8,000 | 6,000 | 4,820 | 6,000 | 6,500 |
+| **Permanent Posts** | 25,989 | 25,989 | 32,842 | 35,457 | 35,457 | 24,000 + private |
+| **Contract Doctors** | 20,877 | 37,447 | 3,900 | **0** | **0** | 8,000 |
+| **Brain Drain/yr** | 1,440 | 1,900 | 800 | 400 | **304** | 600 |
+| **Overseas Return/yr** | 40 | 20 | 200 | 280 | **296** | 200 |
+| **Doc-to-Population** | 2.06 | 2.15 | 2.54 | 2.50 | **2.58** | 2.54 |
+| **Overcrowding** | 94 | 100 | 50 | 55 | **50** | 55 |
+| **Workload hrs/wk** | 84 | 92 | 58 | 52 | **50** | 55 |
+| **Retention (>3 yrs)** | 34% | 20% | 72% | 78% | **82%** | 70% |
+| **Budget %GDP** | 1.94 | 1.80 | 2.10 | 2.30 | **2.42** | 1.85 |
+| **KK Wait (days)** | 22 | 24 | 7 | 5 | **4** | 5 |
+| **Student Interest** | 1.16 | 0.80 | 2.06 | 2.44 | **2.50** | 2.22 |
+
+<br>
+
+### Core Finding
+
+**The crisis is not a shortage of doctors. It is a shortage of career pathways.**
+
+All six simulations converge on the same insight: Malaysia does not have a simple supply problem. In 1990, increasing supply worked (for a time) because the system still created permanent posts. By 2011, the rigid civil service post ceiling — not the number of graduates — was the binding constraint. The 2016 glut was a **budget glut**: too many graduates for the government's rigid wage bill, not too many for the population's healthcare needs.
+
+The 2024–2026 crisis is the second half of that pendulum: post-starved graduates became contract doctors, contract doctors became frustrated, frustrated doctors became brain drain, and brain drain became shortage again.
+
+**Breaking this cycle requires attacking BOTH the supply pipeline AND the environment simultaneously.** Any single-vector approach produces partial or perverse outcomes.
+
+---
+
+### Policy Options Ranked
+
+#### Option A — SIM-5: Comprehensive Reform (RECOMMENDED)
+**Moderate intake increase + full environment reform.**
+
+| Dimension | Score |
+|-----------|-------|
+| Doctor density achieved by 2030 | 2.58/1,000 (highest sustainable) |
+| Retention | 82% (near full retention) |
+| Equity | Maintained — doctors distributed via mandate |
+| Budget | Requires +8% real growth, but saves money long-term |
+| Political feasibility | Very Low — requires 10+ year continuity |
+| Cycle repeat risk | Very Low — HSC institutionalises planning |
+
+**Why it works:** Intake rises to 6,000 — but every additional graduate has a matched housemanship post. Permanent posts expand at +10%/year. The contract system is abolished, not phased out. Salary ratios reach 0.60 (approaching private parity). Working conditions are transformed with 3-month deployment notice, AI support, rural incentives, and workload caps. The Health Services Commission breaks MOHE-JPA-MOH silos.
+
+**Trade-off:** Requires the most political capital and budget reallocation. But the institutionalised HSC makes reversal structurally harder than in previous decades.
+
+---
+
+#### Option B — SIM-4: Environment Reform ONLY
+**Fix retention without increasing intake.**
+
+| Dimension | Score |
+|-----------|-------|
+| Doctor density achieved by 2030 | 2.50/1,000 (solid) |
+| Retention | 78% (excellent) |
+| Equity | Maintained |
+| Budget | +5% real growth |
+| Political feasibility | Low |
+| Cycle repeat risk | Low |
+
+**Why it works:** The existing workforce is the fastest way to increase doctor numbers. Brain drain falls from 1,200 to 400/year. Returnees triple. Contract doctors convert to permanent. By 2030, the system has 2.5 doctors per 1,000 from retention alone — without a single additional graduate.
+
+**Trade-off:** Slower absolute growth. If population grows faster than projected, the static intake may leave residual gaps. But this is the most fiscally responsible path if budget expansion is politically impossible.
+
+---
+
+#### Option C — SIM-3: Balanced Pipeline ONLY
+**Match intake to posts without full environment reform.**
+
+| Dimension | Score |
+|-----------|-------|
+| Doctor density achieved by 2030 | 2.54/1,000 |
+| Retention | 72% (good) |
+| Equity | Maintained via post matching |
+| Budget | Flat (protected from cuts) |
+| Political feasibility | Medium |
+| Cycle repeat risk | Medium — if future governments freeze posts |
+
+**Why it works:** Graduate-to-post matching is the minimum structural reform required. No glut, no bottleneck, no unemployed graduates. The system avoids both the SIM-1 decline and the SIM-2 crunch.
+
+**Trade-off:** Without aggressive retention reform, brain drain still claims ~800 doctors/year. The system grows steadily but loses talent it could have kept. The contract system is phased out, not abolished — some doctors still wait years for certainty.
+
+---
+
+#### Option D — SIM-6: Private Sector Integration
+**Market-based expansion via PPP.**
+
+| Dimension | Score |
+|-----------|-------|
+| Doctor density achieved by 2030 | 2.54/1,000 (fast) |
+| Retention | 70% (moderate) |
+| Equity | **Severely eroded** — two-tier system emerges |
+| Budget | −5% (fiscal win) |
+| Political feasibility | Medium |
+| Cycle repeat risk | Medium |
+
+**Why it works on paper:** Fastest absolute workforce growth. Budget relief. Private sector absorbs surplus graduates. Brain drain falls to 600/year.
+
+**Fatal flaw:** Market forces concentrate doctors where patients can pay. Rural KKs lose staff. Compulsory 3-year public service is eroded by bond buyouts and private incentives. By Round 7, 15% of rural KKs face critical understaffing. The system becomes **efficient at producing inequality**.
+
+This is not idle speculation — it mirrors the documented trajectory of countries that privatised healthcare without equity safeguards (pre-ACA United States, post-Soviet Eastern Europe).
+
+---
+
+#### Option E — SIM-2: Intake Surge
+**Panic expansion without post creation.**
+
+This path is **actively destructive**. By 2030: 14,265 unemployed graduates, 713-month housemanship waitlist, 37,447 contract doctors, retention collapsed to 20%, and the system poised for another moratorium by 2032–2035. This does not solve the shortage — it **accelerates and institutionalises the cycle**.
+
+---
+
+#### Option F — SIM-1: Status Quo
+**"Do nothing."**
+
+Not a policy — an absence of policy. Validates the counterfactual: brain drain reaches 1,440/year, retention falls to 34%, overcrowding hits 94%, and the system approaches collapse by 2035.
+
+---
+
+### The Pendulum Explained
+
+```
+Shortage (1990s) ──→ Intake surge ──→ Glut (2016) ──→ Moratorium ──→ Shortage (2024)
+       │                                │                                │
+       │                                │                                │
+       └── No post creation added ──────┘    No environment reform ──────┘
+```
+
+The pendulum swings because each "solution" addresses only ONE side:
+- **Supply-side solutions** (SIM-2, SIM-3) grow doctors but leave them contract-bound and frustrated.
+- **Demand-side solutions** (SIM-4) improve conditions but grow slowly.
+- **Comprehensive solutions** (SIM-5) address both.
+- **Market solutions** (SIM-6) grow numbers but abandon equity.
+
+---
+
+### Final Recommendation
+
+For Malaysia, **SIM-5 (Comprehensive Reform)** is the target. But if political capital is insufficient, **SIM-4 (Environment Reform)** is the most viable first step — it requires no intake increase (avoiding MOHE-JPA coordination battles) and produces measurable retention gains within one electoral cycle.
+
+For the next government:
+1. **Year 1:** Establish the Health Services Commission. Abolish the contract system for new hires. +5% budget increase.
+2. **Year 2:** Tie intake increases to verified post creation. Begin rural incentive package.
+3. **Year 3:** Salary reindexing including on-call and hazard pay. AI support rollout.
+4. **Year 5:** Evaluate. If retention exceeds 75%, scale to full comprehensive model.
+
+The tools, data, and evidence are in the six reports above. The question is political will.
+
+---
+
+*Synthesis written by Hermes (Genesis AI CEO) | Analysis of 1,440 agent decisions across 48 simulation rounds | 2026-05-07*
