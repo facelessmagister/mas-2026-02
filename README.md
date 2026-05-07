@@ -152,24 +152,26 @@ This project uses **multi-agent LLM-driven simulation** to:
 
 ---
 
-### SIM-6: Private Sector Integration (Planned)
-**Purpose**: Test market-based alternative. Not yet implemented.
+### SIM-6: Private Sector Integration (Complete)
+**Purpose**: Test market-based alternative — government offloads training to private sector via PPP.
 
-| Parameter | Planned Value |
-|-----------|---------------|
-| Annual intake | 4,820 → 6,500 (private schools expand with accreditation) |
+| Parameter | Value |
+|-----------|-------|
+| Annual intake | 4,820 → 6,500 by 2030 (private schools expand with accreditation) |
 | Housemanship posts | Public: +2%/year; Private: +15%/year |
 | Permanent posts | Public: static; Private: major expansion |
 | Contract system | Public retains; Private offers direct permanent |
 | Salary adjustments | Public: +10%; Private: market rate |
 | Budget trend | −5% |
-| Brain drain rate | 600 MOs/year |
-| Overseas return | 15%/year |
-| HSC / pipeline reform | Light-touch regulation |
-| Compulsory service | 3-year public service required |
+| Brain drain rate | 1,200 → 600 MOs/year |
+| Overseas return | 80 → 200/year |
+| HSC / pipeline reform | Light-touch regulation, accreditation focus |
+| Compulsory service | 3-year public service required, then free market |
 | Private sector growth | +15%/year |
 
-**Expected outcome**: Rapid workforce expansion. Risk: equity gap if private sector cherry-picks profitable areas.
+**Outcome**: Fastest absolute workforce growth. Doctor/pop reaches 2.54 by 2030. Private sector absorbs surplus graduates, reducing brain drain. But **two-tier system emerges**: urban patients benefit; rural patients face worsening access as doctors concentrate in profitable urban private posts after compulsory service. By Round 7, 15% of rural KKs critically understaffed. Market-based expansion is efficient at growing numbers but indifferent to equity.
+
+**Risk realized**: Equity gap widens significantly. Malaysia has more doctors than ever, but they are not distributed where needed most.
 
 ---
 
@@ -219,10 +221,34 @@ mas-2026-02/
 │   ├── sim2_state.json
 │   ├── sim2_personas.json
 │   └── sim2_report.md
-├── SIM-3/                                 ← planned
-├── SIM-4/                                 ← planned
+├── SIM-3/                                 ← complete: Balanced Pipeline (Match Intake to Posts)
+│   ├── sim3_engine.py
+│   ├── sim3_interview.py
+│   ├── sim3_log.jsonl
+│   ├── sim3_state.json
+│   ├── sim3_personas.json
+│   └── sim3_report.md
+├── SIM-4/                                 ← complete: Environment Reform (Fix Retention)
+│   ├── sim4_engine.py
+│   ├── sim4_interview.py
+│   ├── sim4_log.jsonl
+│   ├── sim4_state.json
+│   ├── sim4_personas.json
+│   └── sim4_report.md
 ├── SIM-5/                                 ← complete: Comprehensive (Balanced + Environment)
-└── SIM-6/                                 ← planned
+│   ├── sim5_engine.py
+│   ├── sim5_interview.py
+│   ├── sim5_log.jsonl                     ← 240 agent actions
+│   ├── sim5_state.json                     ← quantitative trajectory
+│   ├── sim5_personas.json                  ← interview-ready personas
+│   └── sim5_report.md                      ← structured report
+└── SIM-6/                                 ← complete: Private Sector Integration (Market-Based)
+    ├── sim6_engine.py
+    ├── sim6_interview.py
+    ├── sim6_log.jsonl                      ← 240 agent actions
+    ├── sim6_state.json                      ← quantitative trajectory
+    ├── sim6_personas.json                   ← interview-ready personas
+    └── sim6_report.md                       ← structured report
 ```
 
 ---
