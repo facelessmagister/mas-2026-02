@@ -92,114 +92,82 @@ This project uses **multi-agent LLM-driven simulation** to:
 
 ---
 
-### SIM-3: Balanced Pipeline (Planned)
+### SIM-3: Balanced Pipeline (Complete)
 **Purpose**: Test whether matching intake to verified post creation prevents the cycle.
 
-| Parameter | Planned Value |
-|-----------|---------------|
-| Annual intake | 4,820 → 6,500 by 2030 (tied to post availability) |
-| Housemanship posts | Tied 1:1 to graduate projections (+6%/year) |
-| Permanent posts | +8%/year (funded by efficiency savings) |
-| Contract system | Phased out over 10 years |
-| Salary adjustments | +15% by 2028, on-call reindexed |
-| Budget trend | Flat in real terms (protected from cuts) |
-| Brain drain rate | 800 MOs/year (improves as certainty returns) |
-| Overseas return | 12%/year |
-| HSC / pipeline reform | Partial (streamlined registration, MOH-JPA coordination) |
-| Private sector growth | +6%/year (less poaching as public improves) |
+| Parameter | Value |
+|-----------|-------|
+| Annual intake | 4,820 → 6,000 by 2030 (tied to post availability) |
+| Housemanship posts | Tied 1:1 to graduate projections |
+| Permanent posts | +8%/year |
+| Contract system | Phased out over 8 years |
+| Salary adjustments | +15% by 2028 |
+| Budget trend | Flat in real terms (protected) |
+| Brain drain rate | 1,200 → 800 MOs/year |
+| Overseas return | 80 → 200/year |
+| HSC / pipeline reform | Partial (streamlined registration, MOHE-JPA coordination) |
+| Private sector growth | +6%/year |
 
-**Key assumptions**:
-- Intake increases are gated on verified post creation
-- Contract system is gradually converted to permanent
-- Budget protection clause prevents Treasury cuts
-- Working conditions improve moderately
-- Student interest stabilizes as career pathway becomes predictable
-
-**Expected outcome**: Steady workforce growth without glut. Doctor/pop reaches 3.0/1,000 by 2038.
+**Outcome**: Graduate-post matching eliminates glut. Doctor/pop reaches 2.62 by 2030. Overcrowding falls to 50. Retention rises to 72%. Contract doctors drop from 18,000 to 3,900. Sustainable, but slower retention than SIM-4.
 
 ---
 
-### SIM-4: Environment Reform (Planned)
+### SIM-4: Environment Reform (Complete)
 **Purpose**: Test whether fixing retention/working conditions solves shortage WITHOUT increasing intake.
 
-| Parameter | Planned Value |
-|-----------|---------------|
+| Parameter | Value |
+|-----------|-------|
 | Annual intake | 4,820 (static) |
 | Housemanship posts | +4%/year |
-| Permanent posts | +10%/year (major conversion drive) |
-| Contract system | Abolished by 2032 |
-| Salary adjustments | +25% by 2030, on-call reindexed, hazard pay restored |
-| Budget trend | +5% real growth (protected) |
-| Brain drain rate | 400 MOs/year (dramatic improvement) |
-| Overseas return | 20%/year |
-| HSC / pipeline reform | Full Health Services Commission established 2028 |
-| Working conditions | 3-month deployment notice, rural incentives, workload caps |
-| Training reform | Competency-based, community exposure, digital literacy |
-| Private sector growth | +4%/year (public competitiveness reduces poaching) |
+| Permanent posts | +10%/year |
+| Contract system | Abolished by 2030 |
+| Salary adjustments | +25% by 2030, on-call reindexed |
+| Budget trend | +5% real growth |
+| Brain drain rate | 1,200 → 400 MOs/year |
+| Overseas return | 80 → 280/year |
+| HSC / pipeline reform | Full Health Services Commission by 2028 |
+| Working conditions | 3-month notice, rural incentives, workload caps |
 
-**Key assumptions**:
-- Health Services Commission breaks MOHE-JPA-MOH silos
-- Massive permanent post expansion funded by efficiency + reprioritization
-- Contract abolition removes the single biggest retention barrier
-- Salary competitiveness with private sector reduces brain drain
-- Returnees come back as Malaysia becomes attractive
-
-**Expected outcome**: Existing workforce retained and expanded through returnees. Doctor/pop 2.8/1,000 by 2038. Overcrowding and waiting times cut by 30–40%.
+**Outcome**: Existing workforce retained and expanded through returnees. Doctor/pop 2.55 by 2030. Brain drain halved, returnees tripled. Overcrowding falls to 58. Retention reaches 78%. Contract abolition removes single biggest barrier. System becomes attractive despite static intake.
 
 ---
 
-### SIM-5: Comprehensive (Planned)
+### SIM-5: Comprehensive (Complete)
 **Purpose**: The ideal policy — moderate intake increase AND full environment reform.
 
-| Parameter | Planned Value |
-|-----------|---------------|
-| Annual intake | 4,820 → 6,000 by 2030 (modest, tied to posts) |
-| Housemanship posts | Tied to graduate output (+5%/year) |
-| Permanent posts | +10%/year (major expansion) |
-| Contract system | Phased out by 2032 |
-| Salary adjustments | +20% by 2030, full allowance reindexing |
-| Budget trend | +8% real growth (major reprioritization) |
-| Brain drain rate | 300 MOs/year (near full retention) |
-| Overseas return | 25%/year (strong pull factor) |
-| HSC / pipeline reform | Full — unified governance, end-to-end workforce planning |
-| Working conditions | 3-month notice, rural incentives, workload caps, AI support |
-| Training reform | Competency-based, community focus, interprofessional learning |
-| Private sector growth | +5%/year (regulated partnership, not poaching) |
-| PPP | Government subsidizes training, private sector provides housemanship slots |
+| Parameter | Value |
+|-----------|-------|
+| Annual intake | 4,820 → 6,000 by 2030 |
+| Housemanship posts | +5%/year (tied to graduate output) |
+| Permanent posts | +10%/year |
+| Contract system | Abolished |
+| Salary adjustments | +20% by 2030 |
+| Budget trend | +8% real growth |
+| Brain drain rate | 1,200 → 304 MOs/year |
+| Overseas return | 80 → 296/year |
+| HSC / pipeline reform | Full — unified governance |
+| Working conditions | 3-month notice, AI support, rural incentives, workload caps |
 
-**Key assumptions**:
-- Political capital and budget reallocation are sustained for 10+ years
-- Both supply (intake) and demand (posts/conditions) addressed simultaneously
-- Malaysia becomes net importer of medical talent
-- System reaches OECD-equivalent density (3.2/1,000) by 2038
-
-**Expected outcome**: Sustainable, non-cyclical. Overcrowding and waiting times halved. Risk: requires massive political continuity.
+**Outcome**: Fastest, most sustainable improvement. Doctor/pop reaches 2.58 by 2030. Retention hits 82%. Brain drain near full retention. Returnees quadruple. Overcrowding falls to 50. Intake and retention addressed simultaneously — the pendulum is broken.
 
 ---
 
 ### SIM-6: Private Sector Integration (Planned)
-**Purpose**: Test market-based alternative — government stops employing all doctors directly.
+**Purpose**: Test market-based alternative. Not yet implemented.
 
 | Parameter | Planned Value |
 |-----------|---------------|
 | Annual intake | 4,820 → 6,500 (private schools expand with accreditation) |
-| Housemanship posts | Public: +2%/year; Private: +15%/year (PPP-funded) |
+| Housemanship posts | Public: +2%/year; Private: +15%/year |
 | Permanent posts | Public: static; Private: major expansion |
 | Contract system | Public retains; Private offers direct permanent |
-| Salary adjustments | Public: +10%; Private: market rate (already higher) |
-| Budget trend | −5% (government offloads training costs) |
-| Brain drain rate | 600 MOs/year (private sector absorbs many) |
-| Overseas return | 15%/year (private sector attractive) |
-| HSC / pipeline reform | Light-touch regulation, accreditation focus |
-| Compulsory service | 3-year public service required, then free market |
-| Private sector growth | +15%/year (major expansion) |
-| Universal coverage | Regulated fee structure, government vouchers for poor |
-
-**Key assumptions**:
-- Private sector can absorb surplus graduates quickly
-- Regulation prevents two-tier system (urban rich vs. rural poor)
-- Compulsory service ensures minimum public coverage
-- Government vouchers maintain access for poor
+| Salary adjustments | Public: +10%; Private: market rate |
+| Budget trend | −5% |
+| Brain drain rate | 600 MOs/year |
+| Overseas return | 15%/year |
+| HSC / pipeline reform | Light-touch regulation |
+| Compulsory service | 3-year public service required |
+| Private sector growth | +15%/year |
 
 **Expected outcome**: Rapid workforce expansion. Risk: equity gap if private sector cherry-picks profitable areas.
 
@@ -253,7 +221,7 @@ mas-2026-02/
 │   └── sim2_report.md
 ├── SIM-3/                                 ← planned
 ├── SIM-4/                                 ← planned
-├── SIM-5/                                 ← planned
+├── SIM-5/                                 ← complete: Comprehensive (Balanced + Environment)
 └── SIM-6/                                 ← planned
 ```
 
